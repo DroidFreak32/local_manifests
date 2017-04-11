@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Remote names -->
+<remote name="TS" fetch="https://github.com/TheScarastic" />
+<!-- Using a custom CM remote to avoid editing and editing of this file -->
+<remote name="losgit" fetch="https://github.com/LineageOS" />
+<!-- muppets remote just in case -->
+<remote name="tehmuppets" fetch="https://github.com/themuppets" />
+
+<remote name="ME" fetch="https://github.com/DroidFreak32" />
+
+<!-- Mido stuff -->
+<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" revision="hexa" remote="ME" />
+<project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" revision="cm-14.1" remote="TS" />
+
+<!-- dependencies (supposedly not needed) -->
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="cm-14.1" remote="TS" />
+<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="cm-14.1" remote="losgit" />
+
+</manifest>
+

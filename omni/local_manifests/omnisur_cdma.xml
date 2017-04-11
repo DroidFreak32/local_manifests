@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <!-- Remote names -->
+        <!-- Using a custom CM remote to avoid editing and editing of this file -->
+        <remote name="losgit" fetch="http://github.com/LineageOS" />
+
+        <!-- TheMuppets's remote just in case -->
+        <remote name="tm" fetch="http://github.com/TheMuppets" />
+        <remote name="omni" fetch="http://github.com/omnirom" />
+        <remote name="me" fetch="https://github.com/DroidFreak32/" />
+
+        <!-- surnia stuff -->
+        <project path="device/motorola/surnia" name="android_device_motorola_surnia" revision="OMNINEWEXP" remote="me" />
+        <project path="device/motorola/msm8916-common" name="device_motorola_msm8916-common" revision="OMNINEWEXP" remote="me" />
+        <project path="kernel/motorola/msm8916" name="android_kernel_motorola_msm8916" revision="cm-14.1" remote="losgit" />
+        <!-- dependencies (supposedly not needed) -->
+        <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="cm-14.1" remote="tm" />
+        <project path="device/qcom/sepolicy" name="android_device_qcom_caf-sepolicy" revision="android-7.1" remote="omni" />
+        <project path="device/qcom/common" name="android_device_qcom_common" revision="cm-14.1" remote="losgit" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="cm-14.1" remote="losgit" />
+        <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" revision="cm-14.1" remote="losgit" />
+        <project path="external/bson" name="android_external_bson" revision="cm-14.1" remote="losgit" />
+        <project path="hardware/qcom/audio-caf-msm8916" name="android_hardware_qcom_audio-caf-msm8916" revision="android-7.1" remote="omni" />
+        <project path="hardware/qcom/display-caf-msm8916" name="android_hardware_qcom_display-caf-msm8916" revision="android-7.1" remote="omni" />
+        <project path="hardware/qcom/media-caf-msm8916" name="android_hardware_qcom_media-caf-msm8916" revision="android-7.1" remote="omni" />
+
+        <!-- Fixes libqsap not found error -->
+        <remove-project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-7.1" groups="pdk" />
+        <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" revision="cm-14.1" remote="losgit" />
+
+        <project path="system/qcom" name="android_system_qcom" revision="android-7.1" remote="omni" />
+
+        <project path="hardware/ril-caf" name="android_hardware_ril" revision="cm-14.1-caf" remote="losgit" />
+
+        <project path="vendor/qcom/opensource_dataservices" name="vendor_qcom_opensource_dataservices" revision="android-7.1" remote="omni" />
+
+<!-- CDMA Stuffs -->
+<remove-project name="android_frameworks_base" />
+<project path="frameworks/base" name="ROM-FIXES/omnirom_frameworks_base" revision="CDMAFixes" remote="github" />
+<remove-project name="android_frameworks_opt_telephony" />
+<project path="frameworks/opt/telephony" name="AOSIP/platform_frameworks_opt_telephony" revision="nougat-mr2" remote="github" />
+<remove-project name="android_packages_providers_TelephonyProvider" />
+<project path="frameworks/base" name="AOSIP/platform_packages_providers_TelephonyProvider" revision="nougat-mr2" remote="github" />
+
+</manifest>
+

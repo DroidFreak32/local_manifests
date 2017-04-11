@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Remote names -->
+<remote name="ME" fetch="https://github.com/DroidFreak32" />
+<!-- Using a custom CM remote to avoid editing and editing of this file -->
+<remote name="losgit" fetch="http://github.com/LineageOS" />
+<!-- muppets remote just in case -->
+<remote name="tehmuppets" fetch="https://github.com/themuppets" />
+
+<!-- bring the 0wl -->
+<remote name="owldev" fetch="https://github.com/aosip" />
+
+
+<!-- surnia stuff -->
+<project path="device/motorola/surnia" name="android_device_motorola_surnia" revision="aosip_n" remote="ME" />
+<project path="device/motorola/msm8916-common" name="device_motorola_msm8916-common" revision="nougat-mr2" remote="owldev" />
+<project path="kernel/motorola/msm8916" name="android_kernel_motorola_msm8916" revision="cm-14.1" remote="losgit" />
+
+<!-- dependencies (supposedly not needed) -->
+
+
+<project path="vendor/motorola" name="proprietary_vendor_motorola" revision="cm-14.1" remote="tehmuppets" />
+
+<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="cm-14.1" remote="losgit" />
+
+<project path="external/bson" name="android_external_bson" revision="cm-14.1" remote="losgit" />
+
+<!-- Mido -->
+
+<remote name="ts" fetch="https://github.com/TheScarastic" />
+
+<!-- <remove-project name="platform_system_bt" path="system/bt" remote="aosp-caf" /> -->
+
+<!-- <project path="system/bt" name="android_system_bt" remote="losgit" revision="cm-14.1" /> -->
+
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="cm-14.1" remote="ts" />
+<project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" revision="cm-14.1" remote="ts" />
+<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" revision="cm-14.1" remote="ts" />
+
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+<project name="DroidFreak32/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" revision="n7x-caf" remote="github" />
+<project name="DirtyUnicorns/android_device_oppo_common" path="device/oppo/common" remote="github" revision="n7x-caf" />
+<project name="LineageOS/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="cm-14.1" />
+<project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-14.1" />
+<project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-14.1" />
+<project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-14.1" />
+<project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
+<remove-project name="platform_frameworks_base" />
+<project name="ROM-FIXES/aex_frameworks_base" path="frameworks/base" remote="github" revision="ga" />
+<remove-project name="platform_frameworks_native" />
+<project name="ROM-FIXES/aex_frameworks_native" path="frameworks/native" remote="github" revision="7.x" />
+<remove-project name="platform_packages_apps_Settings" />
+<project name="ROM-FIXES/aex_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="ga" />
+<remove-project name="platform_packages_apps_Extensions" />
+<project name="ROM-FIXES/aex_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="ga" />
+</manifest>
+

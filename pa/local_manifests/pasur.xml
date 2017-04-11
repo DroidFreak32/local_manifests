@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote names -->
+  <remote name="ME" fetch="http://github.com/DroidFreak32" />
+  <!-- Using a custom CM remote to avoid editing and editing of this file -->
+  <remote name="losgit" fetch="http://github.com/LineageOS" />
+  <!-- muppets remote just in case -->
+  <remote name="tehmuppets" fetch="http://github.com/themuppets" />
+
+  <remote  name="slim2" fetch="https://github.com/SlimRoms" />
+
+<!-- bring the Tipsy -->
+  <remote name="tipdev" fetch="http://github.com/TipsyOs-Devices" />
+  
+  <!-- surnia stuff -->
+  <project path="device/motorola/surnia" name="android_device_motorola_surnia" revision="pa" remote="ME" />
+  <project path="device/motorola/msm8916-common" name="device_motorola_msm8916-common" revision="pa" remote="ME" />
+  <project path="kernel/motorola/msm8916" name="android_kernel_motorola_msm8916" revision="cm-14.1" remote="losgit" />
+  
+  <!-- dependencies (supposedly not needed) -->
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="cm-14.1" remote="tehmuppets" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="cm-14.1" remote="losgit" />
+  <project path="external/bson" name="android_external_bson" revision="cm-14.1" remote="losgit" />   
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" revision="cm-14.1-caf-8916" remote="losgit" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" revision="cm-14.1-caf-8916" remote="losgit" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" revision="cm-14.1-caf-8916" remote="losgit" />
+</manifest>
+

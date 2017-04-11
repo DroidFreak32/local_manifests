@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="ts" fetch="https://github.com/TheScarastic" />
+
+
+<!-- <remove-project name="hardware_qcom_audio" revision="ng7.1-caf-8937" remote="slim" />
+
+<remove-project name="hardware_qcom_display" revision="ng7.1-caf-8937" remote="slim" />
+
+<remove-project name="hardware_qcom_media" revision="ng7.1-caf-8937" remote="slim" />
+
+<remove-project name="hardware_ril" /> -->
+
+<!-- <remove-project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="slim" /> -->
+
+<!-- surnia stuff -->
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="cm-14.1" remote="ts" />
+<project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" revision="cm-14.1" remote="ts" />
+<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" revision="tipsyN" remote="ME" />
+<!-- <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" revision="cm-14.1-caf-8937" remote="losgit" />
+<project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" revision="cm-14.1-caf-8937" remote="losgit" />
+<project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" revision="cm-14.1-caf-8937" remote="losgit" />
+<project path="hardware/ril-caf" name="android_hardware_ril" revision="cm-14.1-caf" remote="losgit" />
+<project path="hardware/ril" name="android_hardware_ril" revision="cm-14.1" remote="losgit" /> -->
+
+
+
+</manifest>
