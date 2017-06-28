@@ -38,9 +38,9 @@
 <remove-project name="android_frameworks_base" />
 <project path="frameworks/base" name="ROM-FIXES/omnirom_frameworks_base" revision="CDMAFixes" remote="github" />
 <remove-project name="android_frameworks_opt_telephony" />
-<project path="frameworks/opt/telephony" name="AOSIP/platform_frameworks_opt_telephony" revision="nougat-mr2" remote="github" />
+<project path="frameworks/opt/telephony" name="GZR-ValidusOS/frameworks_opt_telephony" revision="n7.1.2" remote="github" />
 <remove-project name="android_packages_providers_TelephonyProvider" />
-<project path="frameworks/base" name="AOSIP/platform_packages_providers_TelephonyProvider" revision="nougat-mr2" remote="github" />
-
+<project path="packages/providers/TelephonyProvider" name="GZR-ValidusOS/packages_providers_TelephonyProvider" revision="n7.1.2" remote="github" />
+<remove-project name="android_packages_services_Telephony" />
+<project path="packages/services/Telephony" name="GZR-ValidusOS/packages_services_Telephony" revision="n7.1.2" remote="github" />
 </manifest>
-
