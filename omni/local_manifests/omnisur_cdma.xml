@@ -32,7 +32,7 @@
 
         <project path="hardware/ril-caf" name="android_hardware_ril" revision="cm-14.1-caf" remote="losgit" />
 
-        <project path="vendor/qcom/opensource_dataservices" name="vendor_qcom_opensource_dataservices" revision="android-7.1" remote="omni" />
+        <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" revision="android-7.1" remote="omni" />
 
 <!-- CDMA Stuffs -->
 <remove-project name="android_frameworks_base" />
