@@ -21,8 +21,5 @@
   <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="cm-14.1" remote="tehmuppets" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="cm-14.1" remote="losgit" />
   <project path="external/bson" name="android_external_bson" revision="cm-14.1" remote="losgit" />   
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" revision="cm-14.1-caf-8916" remote="losgit" />
-  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" revision="cm-14.1-caf-8916" remote="losgit" />
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" revision="cm-14.1-caf-8916" remote="losgit" />
 </manifest>
 
