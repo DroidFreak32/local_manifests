@@ -25,17 +25,4 @@
 
 <project path="external/bson" name="android_external_bson" revision="cm-14.1" remote="losgit" />
 
-<!-- Mido -->
-
-<remote name="ts" fetch="https://github.com/TheScarastic" />
-
-<!-- <remove-project name="platform_system_bt" path="system/bt" remote="aosp-caf" /> -->
-
-<!-- <project path="system/bt" name="android_system_bt" remote="losgit" revision="cm-14.1" /> -->
-
-<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="cm-14.1" remote="ts" />
-<project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" revision="cm-14.1" remote="ts" />
-<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" revision="cm-14.1" remote="ts" />
-
-
 </manifest>
