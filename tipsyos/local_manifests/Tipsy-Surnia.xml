@@ -6,11 +6,7 @@
   <remote name="losgit" fetch="http://github.com/LineageOS" />
   <!-- muppets remote just in case -->
   <remote name="tehmuppets" fetch="http://github.com/themuppets" />
-
-    <remote  name="slim2"
-           fetch="https://github.com/SlimRoms" />
-
-<!-- bring the Tipsy -->
+  <!-- bring the Tipsy -->
   <remote name="tipdev" fetch="http://github.com/TipsyOs-Devices" />
   
   <!-- surnia stuff -->
@@ -21,7 +17,4 @@
   <!-- dependencies (supposedly not needed) -->
   <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="cm-14.1" remote="tehmuppets" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="cm-14.1" remote="losgit" />
-<!--   <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" revision="ng7.1-caf-8916" remote="slim2" />
-<project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" revision="ng7.1-caf-8916" remote="slim2" />
-<project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" revision="ng7.1-caf-8916" remote="slim2" />    -->
   </manifest>

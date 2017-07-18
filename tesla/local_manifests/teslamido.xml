@@ -11,23 +11,16 @@
   <remote name="tehmuppets" fetch="https://github.com/themuppets" />
   
   <!-- mido stuff -->
-  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" revision="TeslaN-new" remote="ME" />
+  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" revision="TeslaN" remote="ME" />
   
-  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" revision="cm-14.1" remote="TS" />
+  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" revision="cm-14.1" remote="losgit" />
   
   <!-- dependencies (supposedly not needed) -->
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="cm-14.1" remote="TS" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="cm-14.1" remote="tehmuppets" />
 
   <project path="hardware/cyanogen" name="android_hardware_cyanogen" revision="cm-14.1" remote="losgit" />
 
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="cm-14.1" remote="losgit" />
-
-
-<remove-project name="hardware_qcom_audio" />
-
-<remove-project name="hardware_qcom_display" />
-
-<remove-project name="hardware_qcom_media" />
 
 <!-- <remove-project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tesla" /> -->
 
@@ -39,13 +32,6 @@
 
 
 <!-- <remove-project name="hardware_ril" /> -->
-
-<project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" revision="cm-14.1-caf-8937" remote="losgit" />
-
-<project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" revision="cm-14.1-caf-8937" remote="losgit" />
-
-<project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" revision="cm-14.1-caf-8937" remote="losgit" />
-
 
 <!-- <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="losgit" revision="cm-14.1" /> -->
 <!-- REVERT THIS OTWISE <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="losgit" revision="cm-14.1" /> -->
