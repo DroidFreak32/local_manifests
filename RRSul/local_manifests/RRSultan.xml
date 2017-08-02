@@ -8,7 +8,6 @@
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <remove-project name="android_packages_apps_LockClock" />
@@ -17,7 +16,6 @@
   <!--Upstream-->
   <project name="DroidFreak32/android_device_oppo_common" path="device/oppo/common" revision="cm-14.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
-  <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0" />
   <project name="LineageOS/android_packages_apps_LockClock" path="packages/apps/LockClock" />
 
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
