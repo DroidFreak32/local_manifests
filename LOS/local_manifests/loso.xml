@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote names -->
+  <remote name="ME" fetch="http://github.com/DroidFreak32" />
+  <!-- Using a custom CM remote to avoid editing and editing of this file -->
+  <remote name="losgit" fetch="http://github.com/LineageOS" />
+  <!-- muppets remote just in case -->
+  <remote name="tehmuppets" fetch="http://github.com/themuppets" />
+
+  
+  <!-- surnia stuff -->
+  <project path="device/motorola/surnia" name="DroidFreak32/android_device_motorola_surnia" revision="loso" />
+  <project path="device/motorola/msm8916-common" name="DroidFreak32/device_motorola_msm8916-common" revision="loso" />
+  <project path="kernel/motorola/msm8916" name="LineageOS/android_kernel_motorola_msm8916"  revision="cm-14.1" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" />
+
+  <!-- dependencies (supposedly not needed) -->
+  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="cm-14.1-caf-8916" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="cm-14.1" remote="tehmuppets" />
+
+
+
+  <!-- Remove -->
+  <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_hardware_ril" />
+  <remove-project name="LineageOS/android_hardware_libhardware" />
+  <project path="bionic/" name="ROM-FIXES/android_bionic" revision="lineage-15.0" />
+  <project path="vendor/lineage" name="ROM-FIXES/android_vendor_lineage" revision="lineage-15.0" />
+  <project path="system/core" name="ROM-FIXES/android_system_core" revision="lineage-15.0" />
+<project path="hardware/ril" name="ROM-FIXES/android_hardware_ril" revision="lineage-15.0" />
+<project path="hardware/libhardware" name="ROM-FIXES/android_hardware_libhardware" revision="lineage-15.0" />
+</manifest>
+
+
+build/core/base_rules.mk:238: error: external/wpa_supplicant_8/wpa_supplicant: 1MODULE.TARGET.ETC.wpa_supplicant.conf already defined by external/wpa_supplicant_8/wpa_supplicant.
