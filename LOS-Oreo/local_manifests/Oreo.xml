@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote names -->
+  <remote name="ME" fetch="ssh://git@github.com" />
+  <!-- Using a custom CM remote to avoid editing and editing of this file -->
+  <remote name="losgit" fetch="http://github.com/LineageOS" />
+  <!-- muppets remote just in case -->
+  <remote name="tehmuppets" fetch="http://github.com/themuppets" />
+
+  
+  <!-- surnia stuff -->
+  <project path="device/motorola/surnia" name="DroidFreak32/android_device_motorola_surnia" revision="loso-2" remote="ME" />
+  <project path="device/motorola/msm8916-common" name="DroidFreak32/device_motorola_msm8916-common" revision="loso-2" remote="ME"/>
+  <project path="kernel/motorola/msm8916" name="DroidFreak32/android_kernel_motorola_msm8916"  revision="testOreo" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" />
+
+  <!-- dependencies (supposedly not needed) -->
+  <project path="hardware/qcom/audio-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_audio" remote="ME" revision="lineage-15.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_display" remote="ME" revision="lineage-15.0-caf-8916"  />
+  <project path="hardware/qcom/media-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_media" remote="ME" revision="lineage-15.0-caf-8916"  />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="cm-14.1" remote="tehmuppets" />
+
+
+
+<!-- REPO PICKS !!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- 
+186740
+187568
+187570
+187637
+ -->
+<!-- REPO PICKS !!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+  <!-- Remove -->
+<remove-project name="LineageOS/android_system_netd" />
+<project path="system/netd" name="ROM-FIXES/android_system_netd" remote="ME" revision="lineage-15.0" />
+<remove-project name="LineageOS/android_vendor_lineage" />
+<project path="vendor/lineage" name="ROM-FIXES/android_vendor_lineage" remote="ME" revision="lineage-15.0" />
+<remove-project name="LineageOS/android_bionic" />
+<project path="bionic" name="ROM-FIXES/android_bionic" remote="ME" revision="lineage-15.0" />
+<remove-project name="LineageOS/android_build" />
+<project path="build/make" name="ROM-FIXES/android_build" remote="ME" revision="lineage-15.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+</project>
+
+</manifest>
