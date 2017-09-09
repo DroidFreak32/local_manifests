@@ -31,7 +31,7 @@
  -->
 <!-- REPO PICKS !!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
-  <!-- Remove -->
+  <!-- Remove 
 <remove-project name="LineageOS/android_system_netd" />
 <project path="system/netd" name="ROM-FIXES/android_system_netd" remote="ME" revision="lineage-15.0" />
 <remove-project name="LineageOS/android_vendor_lineage" />
@@ -48,5 +48,5 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
 </project>
-
+-->
 </manifest>
