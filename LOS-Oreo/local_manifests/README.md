@@ -1,3 +1,13 @@
-LineageOS/android_system_qcom: 187637
+LineageOS/android_build: 186687
 
 LineageOS/android_hardware_ril: 187764 
+
+LineageOS/android_packages_services_Telephony: 187147
+
+LineageOS/android_system_core: 187146 
+
+LineageOS/android_system_qcom: 187637
+
+LineageOS/android_vendor_lineage: 187951 185491
+
+LineageOS/android_vendor_qcom_opensource_cryptfs_hw: 187837
