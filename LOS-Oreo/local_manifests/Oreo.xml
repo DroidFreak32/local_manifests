@@ -10,8 +10,8 @@
   
   <!-- surnia stuff -->
   <project path="device/motorola/surnia" name="DroidFreak32/android_device_motorola_surnia" revision="loso-2" remote="ME" />
-  <project path="device/motorola/msm8916-common" name="DroidFreak32/device_motorola_msm8916-common" revision="loso-2" remote="ME"/>
-  <project path="kernel/motorola/msm8916" name="DroidFreak32/android_kernel_motorola_msm8916"  revision="testOreo" />
+  <project path="device/motorola/msm8916-common" name="DroidFreak32/android_device_motorola_msm8916-common" revision="lineage-15.0" remote="ME"/>
+  <project path="kernel/motorola/msm8916" name="DroidFreak32/android_kernel_motorola_msm8916"  revision="lineage-15.0" />
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" />
 
   <!-- dependencies (supposedly not needed) -->
@@ -21,7 +21,7 @@
   <project path="hardware/qcom/audio-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_audio" remote="ME" revision="lineage-15.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_display" remote="ME" revision="lineage-15.0-caf-8916"  />
   <project path="hardware/qcom/media-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_media" remote="ME" revision="lineage-15.0-caf-8916"  />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="cm-14.1" remote="tehmuppets" />
+  <project path="vendor/motorola" name="DroidFreak32/proprietary_vendor_motorola" revision="lineage-15.0" remote="ME" />
 
 
 
