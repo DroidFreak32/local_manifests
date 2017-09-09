@@ -1,5 +1,7 @@
 LineageOS/android_build: 186687
 
+LineageOS/android_bionic: 185640 (maybe 185639 )
+
 LineageOS/android_hardware_ril: 187764 
 
 LineageOS/android_packages_services_Telephony: 187147
