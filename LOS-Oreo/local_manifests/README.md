@@ -1,8 +1,12 @@
 LineageOS/android_build: 186687
 
+LineageOS/android_build_soong: 188401
+
 LineageOS/android_bionic: 185640 (maybe 185639 )
 
 LineageOS/android_frameworks_av: 187558 187559 187560 187561
+
+LineageOS/android_hardware_interfaces: 188400
 
 LineageOS/android_hardware_ril: 187764 
 
