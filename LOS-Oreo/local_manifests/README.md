@@ -1,6 +1,6 @@
 LineageOS/android_build: 186687
 
-LineageOS/android_build_soong: 188401
+LineageOS/android_build_soong: 188401 186740 188279 188280;
 
 LineageOS/android_bionic: 185640 (maybe 185639 )
 
@@ -16,7 +16,7 @@ LineageOS/android_system_core: 187146
 
 LineageOS/android_system_qcom: 187637
 
-LineageOS/android_vendor_lineage: 187951 185491
+LineageOS/android_vendor_lineage: 188278 185870 187951 185491
 
 LineageOS/android_vendor_qcom_opensource_cryptfs_hw: 187837
 
