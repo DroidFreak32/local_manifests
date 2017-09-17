@@ -26,9 +26,5 @@ LineageOS/android_vendor_qcom_opensource_cryptfs_hw: 187837
 
 
 Todo:
-
-camera:
-
-*Check both with&without removing libmotosensor shim to libsensor
-
-*sepolify filecontexts with the sensors
+# Experimental stuff !!
+repopick 188389 188518-188526;
