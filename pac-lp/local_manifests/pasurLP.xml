@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="sec" fetch="https://github.com/ROMSecPatches" />
+  <project name="android_device_motorola_surnia" path="device/motorola/surnia" remote="ss" revision="pac-5.1" />
+  <project name="android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="ss" revision="pac-5.1" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="ss" revision="pac-5.1" />
+  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="pac" revision="pac-5.1" />
+  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="pic" revision="cm-12.1" />
+
+<!-- Save bandwidth for surnia -->
+
+<project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8916" remote="cm" />
+<project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8916" remote="cm" />
+<project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8916" remote="cm" />
+
+</manifest>
+
