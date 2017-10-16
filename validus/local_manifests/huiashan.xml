@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Project: 'https://github.com/AdrianDC/android_development_manifests' -->
+<!-- Repo Init: 'repoinitaosp 8.0.0_r9' -->
+<!-- Untracked: '' -->
+<manifest>
+
+  <!-- GitHub Remotes for Projects 
+  <remote name="github" fetch="https://github.com" revision="refs/heads/lineage-15.0" />
+-->
+  <!-- SONY 8960 Common Projects -->
+  <remove-project name="device_qcom_common" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_packages_apps_Jelly" path="packages/apps/Jelly" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0"/>
+  <remove-project name="external_libnfc-nxp" />
+  <project name="LineageOS/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="lineage-15.0"/>
+  <remove-project name="packages_apps_Nfc" />
+  <project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="lineage-15.0"/>
+
+  <!-- SONY 8960 Vendor Projects -->
+  <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="lineage-15.0" />
+
+  <!-- SONY 8960 Huashan Projects -->
+  <project name="AdrianDC/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="lineage-15.0" />
+  <project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="github" revision="lineage-15.0" />
+
+</manifest>

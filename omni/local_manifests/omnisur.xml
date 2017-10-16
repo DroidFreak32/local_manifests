@@ -24,13 +24,13 @@
 <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" revision="cm-14.1-caf" remote="github" />
 
 <project path="vendor/qcom/opensource_dataservices" name="vendor_qcom_opensource_dataservices" revision="android-7.1" remote="omnirom" />
-<!-- UberTC -->
+<!-- UberTC 
 <remote name="bb" fetch="https://bitbucket.org/" />
 <project name="matthewdalex/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" revision="master" remote="bb" />
 <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="caf" />
 <project name="matthewdalex/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="master" remote="bb"/>
 
-
+-->
 <!-- 
         <project path="external/libnfnetlink" name="android_external_libnfnetlink" revision="android-7.1" remote="omni" />
 

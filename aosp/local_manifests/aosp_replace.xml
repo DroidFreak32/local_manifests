@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remote names -->
+    <remote name="ME" fetch="ssh://git@github.com" />
+    <!-- Using a custom CM remote to avoid editing and editing of this file -->
+    <remote name="losgit" fetch="http://github.com/LineageOS" />
+    <!-- muppets remote just in case -->
+    <remote name="tehmuppets" fetch="http://github.com/themuppets" />
+
+
+    <!-- Building stuff -->
+    <remove-project name="platform/build" />
+    <remove-project name="platform/build/kati" />
+    <remove-project name="platform/build/soong" />
+    <project path="build/make" name="AOSP-8916/build_make" revision="oreo" remote="ME" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/kati" name="AOSP-8916/build_kati" revision="oreo" remote="ME" />
+    <project path="build/soong" name="AOSP-8916/build_soong" revision="oreo" remote="ME" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+
+
+    <!-- REPOS TO REPLACE -->
+    <remove-project name="platform/bionic" />
+    <remove-project name="platform/bootable/recovery" />
+    <remove-project name="platform/external/selinux" />
+    <remove-project name="platform/frameworks/av" />
+    <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/native" />
+    <remove-project name="platform/hardware/interfaces" />
+    <remove-project name="platform/hardware/libhardware" />
+    <remove-project name="platform/hardware/libhardware_legacy" />
+    <remove-project name="platform/hardware/qcom/gps" />
+    <remove-project name="platform/hardware/qcom/wlan" />
+    <remove-project name="platform/packages/apps/Camera2" />
+    <remove-project name="platform/packages/apps/Gallery2" />
+    <remove-project name="platform/packages/apps/Settings" />
+    <remove-project name="platform/packages/inputmethods/LatinIME" />
+    <remove-project name="platform/packages/providers/MediaProvider" />
+    <remove-project name="platform/packages/services/Telephony" />
+    <remove-project name="platform/system/bt" />
+    <remove-project name="platform/system/core" />
+    <remove-project name="platform/system/media" />
+    <remove-project name="platform/system/sepolicy" />
+    <remove-project name="platform/system/vold" />
+
+    <!-- REPLACED REPOS -->
+    <project path="bionic" name="AOSP-8916/bionic" revision="oreo" remote="ME" />
+    <project path="bootable/recovery" name="AOSP-8916/bootable_recovery" revision="oreo" remote="ME" />
+    <project path="external/selinux" name="AOSP-8916/external_selinux" revision="oreo" remote="ME" />
+    <project path="frameworks/av" name="AOSP-8916/frameworks_av" revision="oreo" remote="ME" />
+    <project path="frameworks/base" name="AOSP-8916/frameworks_base" revision="oreo" remote="ME" />
+    <project path="frameworks/native" name="AOSP-8916/frameworks_native" revision="oreo" remote="ME" />
+    <project path="hardware/interfaces" name="AOSP-8916/hardware_interfaces" revision="oreo" remote="ME" />
+    <project path="hardware/libhardware" name="AOSP-8916/hardware_libhardware" revision="oreo" remote="ME" />
+    <project path="hardware/libhardware_legacy" name="AOSP-8916/hardware_libhardware_legacy" revision="oreo" remote="ME" />
+    <project path="hardware/qcom/fm" name="AOSP-8916/hardware_qcom_fm" revision="oreo" remote="ME" />
+    <project path="hardware/qcom/gps" name="AOSP-8916/hardware_qcom_gps" revision="oreo" remote="ME" />
+    <project path="packages/apps/Camera2" name="AOSP-8916/packages_apps_Camera2" revision="oreo" remote="ME" />
+    <project path="packages/apps/Gallery2" name="AOSP-8916/packages_apps_Gallery2" revision="oreo" remote="ME" />
+    <project path="packages/apps/Settings" name="AOSP-8916/packages_apps_Settings" revision="oreo" remote="ME" />
+    <project path="packages/inputmethods/LatinIME" name="AOSP-8916/packages_inputmethods_LatinIME" revision="oreo" remote="ME" />
+    <project path="packages/providers/MediaProvider" name="AOSP-8916/packages_providers_MediaProvider" revision="oreo" remote="ME" />
+    <project path="packages/services/Telephony" name="AOSP-8916/packages_services_Telephony" revision="oreo" remote="ME" />
+    <project path="system/bt" name="AOSP-8916/system_bt" revision="oreo" remote="ME" />
+    <project path="system/core" name="AOSP-8916/system_core" revision="oreo" remote="ME" />
+    <project path="system/media" name="AOSP-8916/system_media" revision="oreo" remote="ME" />
+    <project path="system/qcom" name="AOSP-8916/system_qcom" remote="ME" revision="oreo"  />
+    <project path="system/sepolicy" name="AOSP-8916/system_sepolicy" revision="oreo" remote="ME" />
+    <project path="system/vold" name="AOSP-8916/system_vold" revision="oreo" remote="ME" />
+
+
+    <!-- HALs to replace -->
+    <remove-project name="platform/hardware/qcom/audio" />
+    <remove-project name="platform/hardware/qcom/bt" />
+    <remove-project name="platform/hardware/qcom/display" />
+    <remove-project name="platform/hardware/qcom/media" />
+    <remove-project name="platform/hardware/ril" />
+
+
+    <!-- Replaced HALs from External Orgs -->
+    <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" revision="lineage-15.0-caf" remote="ME" />
+    <project path="hardware/qcom/audio-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_audio" revision="lineage-15.0-caf-8916" remote="ME" />
+    <project path="hardware/qcom/display-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_display" revision="lineage-15.0-caf-8916" remote="ME" />
+    <project path="hardware/qcom/media-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_media" revision="lineage-15.0-caf-8916" remote="ME" />
+    <project path="hardware/qcom/wlan-caf" name="AOSP-8916/hardware_qcom_wlan" revision="oreo" remote="ME" />
+    <project path="hardware/ril-caf" name="AOSP-8916/hardware_ril-caf" revision="oreo" remote="ME" />
+
+    <!-- Extra Dependency -->
+    <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="lineage-15.0" remote="ME"  />
+</manifest>

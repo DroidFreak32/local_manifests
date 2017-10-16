@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- surnia stuff -->
+  <project path="device/motorola/surnia" name="DroidFreak32/android_device_motorola_surnia" revision="aosp" remote="ME" />
+  <project path="device/motorola/msm8916-common" name="DroidFreak32/android_device_motorola_msm8916-common" revision="aosp" remote="ME"/>
+  <project path="kernel/motorola/msm8916" name="DroidFreak32/android_kernel_motorola_msm8916"  revision="lineage-15.0" remote="ME" />
+  <project path="device/qcom/common" name="DroidFreak32/aosp_development_motorola8916_o" revision="device_qcom_common" remote="ME" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="ME" revision="lineage-15.0" />
+  <project path="vendor/motorola" name="DroidFreak32/proprietary_vendor_motorola" revision="lineage-15.0" remote="ME" />
+  <remove-project name="platform/external/tinycompress" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="ME" revision="lineage-15.0"  />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="ME" revision="lineage-15.0"  />
+</manifest>
