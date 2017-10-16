@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="ME" fetch="https://github.com/DroidFreak32" />
+  <project name="android_device_sony_common" path="device/sony/common" remote="cm" revision="cm-12.1" />
+  <project name="android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="cm" revision="cm-12.1" />
+  <project name="android_hardware_sony_DASH" path="hardware/sony/DASH" remote="cm" revision="cm-12.1" />
+  <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="cm" revision="cm-12.1" />
+  <project name="huashan_vendor_sony" path="vendor/sony" remote="ME" revision="cm-12.1" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8960" remote="cm" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" remote="cm" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.1-caf-8960" remote="cm" />
+</manifest>

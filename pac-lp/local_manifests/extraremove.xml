@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remove-project name="android_hardware_intel_common_libmix" />
+	<remove-project name="android_hardware_intel_img_hwcomposer" />
+	<remove-project name="android_hardware_intel_img_libdrm" />
+	<remove-project name="android_hardware_nvidia_audio" />
+	<remove-project name="android_hardware_nvidia_tegra124" />
+	<remove-project name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+	<remove-project name="platform/hardware/intel/audio_media" />
+	<remove-project name="platform/hardware/intel/bootstub" />
+	<remove-project name="platform/hardware/intel/common/bd_prov" />
+	<remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+	<remove-project name="platform/hardware/intel/common/libva" />
+	<remove-project name="platform/hardware/intel/common/libwsbm" />
+	<remove-project name="platform/hardware/intel/common/omx-components" />
+	<remove-project name="platform/hardware/intel/common/utils" />
+	<remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+	<remove-project name="platform/hardware/intel/img/psb_headers" />
+	<remove-project name="platform/hardware/intel/img/psb_video" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+	<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+	<remove-project name="android_hardware_qcom_audio" />
+	<remove-project name="android_hardware_qcom_display" />
+	<remove-project name="android_hardware_qcom_media" />
+	<project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" />
+	<project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" />
+	<project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" />
+
+</manifest>
