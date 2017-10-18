@@ -20,6 +20,9 @@
 	<remove-project name="android_external_sonivox" />
 	<project path="external/sonivox" name="android_external_sonivox" remote="sec" revision="cm-12.1"/>
 
+	<remove-project name="android_external_tremolo"/>
+	<project path="external/tremolo" name="android_external_tremolo" remote="sec" revision="cm-12.1"/>
+
 	<remove-project name="platform/external/libhevc" />
-	<project path="external/libhevc" name="platform/external/libhevc" remote="aosp" revision="refs/tags/android-5.1.1_r38"/>
+	<project path="external/libhevc" name="android_external_libhevc" remote="sec" revision="cm-12.1"/>
 </manifest>
