@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="sec" fetch="https://github.com/ROMSecPatches" />
+  <remote name="sec" fetch="ssh://git@github.com/ROMSecPatches" />
   <project name="android_device_motorola_surnia" path="device/motorola/surnia" remote="ss" revision="pac-5.1" />
   <project name="android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="ss" revision="pac-5.1" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="ss" revision="pac-5.1" />
