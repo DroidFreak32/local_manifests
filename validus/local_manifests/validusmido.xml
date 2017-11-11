@@ -10,7 +10,7 @@
 <remote name="ME" fetch="https://github.com/DroidFreak32" />
 
 <!-- Mido stuff -->
-<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" revision="validus" remote="ME" />
+<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" revision="validus-new" remote="ME" />
 <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" revision="cm-14.1" remote="losgit" />
 
 <!-- dependencies (supposedly not needed) -->
