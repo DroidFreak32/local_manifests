@@ -22,3 +22,6 @@ LineageOS/android_vendor_lineage: 187951
 Todo:
 # Experimental stuff !!
 repopick 188389 188518-188526;
+
+
+https://github.com/LineageOS/android_hardware_qcom_audio/commit/c458406fa9aa360c4a1517ec1e18ac555fc46a1e#diff-dde9b40835ee9f444d9a1b3769ee021d
