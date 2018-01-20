@@ -7,63 +7,82 @@
   <!-- muppets remote just in case -->
   <remote name="tehmuppets" fetch="http://github.com/themuppets" />
 
-  
-  <!-- surnia stuff -->
-  <project path="device/motorola/surnia" name="DroidFreak32/android_device_motorola_surnia" revision="loso-2" remote="ME" />
-  <project path="device/motorola/msm8916-common" name="DroidFreak32/android_device_motorola_msm8916-common" revision="lineage-15.0" remote="ME"/>
-  <project path="kernel/motorola/msm8916" name="DroidFreak32/android_kernel_motorola_msm8916"  revision="lineage-15.0" />
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-15.0" />
 
-  <!-- dependencies (supposedly not needed) -->
+
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/sample" />
+  <remove-project name="kernel/tests" />
+
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_external_tinycompress" />
-  <project path="external/tinycompress" name="ROM-FIXES/android_external_tinycompress" remote="ME" revision="lineage-15.0"  />
-  <project path="hardware/qcom/audio-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_audio" remote="ME" revision="lineage-15.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_display" remote="ME" revision="lineage-15.0-caf-8916"  />
-  <project path="hardware/qcom/media-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_media" remote="ME" revision="lineage-15.0-caf-8916"  />
-  <project path="vendor/motorola" name="DroidFreak32/proprietary_vendor_motorola" revision="lineage-15.0" remote="ME" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+
+  <project path="hardware/qcom/audio-caf/msm8916" name="CypherOS/hardware_qcom_audio" revision="oreo-mr1-release-8916" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CypherOS/hardware_qcom_display" revision="oreo-mr1-release-8916" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CypherOS/hardware_qcom_media" revision="oreo-mr1-release-8916" />
 
 
 
-<!-- REPO PICKS !!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<!-- 
-1876377
- -->
-<!-- REPO PICKS !!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+<remove-project name="platform/prebuilts/gdb/darwin-x86" />
+<remove-project name="platform/prebuilts/go/darwin-x86" />
+<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
-  <!-- Remove 
-<remove-project name="LineageOS/android_system_netd" />
-<project path="system/netd" name="ROM-FIXES/android_system_netd" remote="ME" revision="lineage-15.0" />
-<remove-project name="LineageOS/android_vendor_lineage" />
-<project path="vendor/lineage" name="ROM-FIXES/android_vendor_lineage" remote="ME" revision="lineage-15.0" />
-<remove-project name="LineageOS/android_bionic" />
-<project path="bionic" name="ROM-FIXES/android_bionic" remote="ME" revision="lineage-15.0" />
-<remove-project name="LineageOS/android_build" />
-<project path="build/make" name="ROM-FIXES/android_build" remote="ME" revision="lineage-15.0" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-</project>
+<!-- Cuz slow speed -->
+<remove-project name="LineageOS/android_frameworks_base" />
+<project path="frameworks/base" name="ROM-FIXES/android_frameworks_base" revision="staging/lineage-15.1" remote="ME"/>
+
+<project path="device/motorola/surnia" name="DroidFreak32/android_device_motorola_surnia" revision="lineage-15.1" remote="ME"/>
+<project path="device/motorola/msm8916-common" name="oreo-surnia/android_device_motorola_msm8916-common" revision="staging/lineage-15.1" remote="ME"/>
+<project path="kernel/motorola/msm8916" name="oreo-surnia/android_kernel_motorola_msm8916" revision="lineage-15.1" remote="ME"/>
+<project path="vendor/motorola" name="oreo-surnia/proprietary_vendor_motorola" revision="oreo-mr1" remote="ME"/>
+
+<project path="external/bson" name="LineageOS/android_external_bson" revision="cm-14.1" remote="ME"/>
+<project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="lineage-15.0" remote="ME"/>
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="staging/lineage-15.1" remote="ME"/>
+
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+
+
+HALS FROM CYPHEROS, BRANCH: oreo-mr1-release-8916
+
+
 -->
 
 
 
-<!-- UNWANTED STUFF -->
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
-  <remove-project name="platform/prebuilts/go/darwin-x86" />
-  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
+
+
+
+  <!-- Remove -->
+ <!--  <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_hardware_ril" />
+  <remove-project name="LineageOS/android_hardware_libhardware" />
+  <project path="bionic/" name="ROM-FIXES/android_bionic" revision="lineage-15.0" />
+  <project path="vendor/lineage" name="ROM-FIXES/android_vendor_lineage" revision="lineage-15.0" />
+  <project path="system/core" name="ROM-FIXES/android_system_core" revision="lineage-15.0" />
+<project path="hardware/ril" name="ROM-FIXES/android_hardware_ril" revision="lineage-15.0" />
+<project path="hardware/libhardware" name="ROM-FIXES/android_hardware_libhardware" revision="lineage-15.0" /> -->
 </manifest>
+
