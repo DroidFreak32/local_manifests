@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="ME" fetch="ssh://git@github.com" />
+  	<!-- Using a custom CM remote to avoid editing and editing of this file -->
+  	<remote name="losgit" fetch="http://github.com/LineageOS" />
+  	<!-- muppets remote just in case -->
+	<remote name="tehmuppets" fetch="http://github.com/themuppets" />
+
+
+<!-- surnia stuff -->
+<project path="device/motorola/surnia" name="DroidFreak32/android_device_motorola_surnia" revision="twrp" remote="ME" />
+<project path="device/motorola/msm8916-common" name="sultanqasim/android_device_motorola_msm8916-common" revision="twrp" remote="ME" />
+<project path="kernel/motorola/msm8916" name="sultanqasim/android_kernel_motorola_msm8916" revision="squid_oreo" remote="ME" />
+<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+<project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="github" revision="lineage-15.1" />
+
+<remove-project name="TeamWin/android_external_busybox" />
+<project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1" />
+
+</manifest>
