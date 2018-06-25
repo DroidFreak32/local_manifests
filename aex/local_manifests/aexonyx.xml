@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+<project name="AOSP-JF-MM/platform_device_oneplus_onyx" path="device/oneplus/onyx" revision="aosp-7.1.2" remote="github" />
+<project name="AOSP-JF-MM/platform_device_oppo_common" path="device/oppo/common" remote="github" revision="aosp-7.1.2-onyx" />
+<project name="CheckYourScreen/Arsenic.Kernel-rebased" path="kernel/oneplus/onyx" remote="github" revision="stable" />
+<project name="BigTopKrazies/vendor_oneplus-onyx" path="vendor/oneplus" remote="github" revision="n7.1" />
+<project name="SlimRoms/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="ng7.1" />
+</manifest>
+
