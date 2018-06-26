@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!--Custom-->
+	<project path="device/lge/hammerhead" name="DroidFreak32/android_device_lge_hammerhead" remote="github-ssh" />
+	<project path="kernel/lge/hammerhead" name="DroidFreak32/android_kernel_lge_hammerhead" remote="github-ssh" />
+	<project path="vendor/lge" name="DroidFreak32/proprietary_vendor_lge" revision="cm-14.1-mnml" remote="github-ssh"  />
+
+</manifest>

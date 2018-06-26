@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="github-ssh" fetch="ssh://git@github.com" revision="cm-14.1" />
+
+    <!-- Security Patches -->
+
+        <!--  These repos are already tracked from LineageOS so we do not need to add them in this manifest:
+
+            external/libavc
+            external/libhevc
+            external/libmpeg2
+            external/libvpx
+            external/sonivox
+            frameworks/opt/telephony
+            packages/providers/MediaProvider
+            packages/providers/UserDictionaryProvider
+            system/bt
+
+        -->
+
+    <remove-project name="android_build" />
+    <project path="build" name="ROMSecPatches/rr_android_build" revision="nougat" remote="github-ssh"  >
+        <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
+
+    <!-- These repos can just be merged with LineageOS repos with no conflicts as of now. -->
+
+    <remove-project name="frameworks_av" />
+    <project name="ROMSecPatches/rr_frameworks_av" path="frameworks/av" revision="nougat"  remote="github-ssh" />
+
+    <remove-project name="system_core" />
+    <project name="ROMSecPatches/rr_system_core" path="system/core" revision="nougat"  remote="github-ssh" />
+
+
+    <!-- These repos are replaced without any modifications. -->
+
+    <remove-project name="platform/external/libvorbis" />
+    <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" groups="pdk-cw-fs,pdk-fs"  remote="github-ssh" />
+
+    <remove-project name="platform/external/svox" />
+    <project path="external/svox" name="platform/external/svox" groups="pdk" remote="aosp" revision="cee78199bbfae81f54a40671db47096f5f32cdad" />
+
+    <remove-project name="platform/frameworks/ex" />
+    <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" revision="cm-14.1"  remote="github-ssh" />
+
+
+    <!-- These repos need to be updated with patches by cherry-picking them manually. -->
+
+    <remove-project name="android_frameworks_base" />
+    <project name="ROM-FIXES/rr_frameworks_base" path="frameworks/base" revision="nougat"  remote="github-ssh" />
+
+    <remove-project name="Resurrection_packages_apps_Settings" />
+    <project name="ROM-FIXES/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="nougat"  remote="github-ssh" />
+
+    <remove-project name="android_packages_services_Telephony" />
+    <project name="ROMSecPatches/rr_packages_services_Telephony" path="packages/services/Telephony" revision="nougat"  remote="github-ssh" />
+
+
+
+    <!-- Useless Repositories to remove-->
+    <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+    <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+    <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+    <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+    <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
+    <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+    <remove-project name="platform/prebuilts/go/darwin-x86" />
+    <remove-project name="platform/prebuilts/ninja/darwin-x86" />
+    <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+</manifest>
