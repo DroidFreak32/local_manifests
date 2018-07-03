@@ -26,7 +26,7 @@
   <remove-project name="device/sample" />
   <remove-project name="kernel/tests" />
 
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+<!--   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
 
@@ -34,7 +34,7 @@
   <project path="hardware/qcom/display-caf/msm8916" name="CypherOS/hardware_qcom_display" revision="oreo-mr1-release-8916" />
   <project path="hardware/qcom/media-caf/msm8916" name="CypherOS/hardware_qcom_media" revision="oreo-mr1-release-8916" />
 
-
+ -->
 
 <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
 <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -48,16 +48,19 @@
 
 <!-- Cuz slow speed -->
 <remove-project name="LineageOS/android_frameworks_base" />
-<project path="frameworks/base" name="ROM-FIXES/android_frameworks_base" revision="staging/lineage-15.1" remote="ME"/>
+<project path="frameworks/base" name="ROM-FIXES/android_frameworks_base" revision="lineage-15.1" remote="ME"/>
 
-<project path="device/motorola/surnia" name="DroidFreak32/android_device_motorola_surnia" revision="lineage-15.1" remote="ME"/>
-<project path="device/motorola/msm8916-common" name="oreo-surnia/android_device_motorola_msm8916-common" revision="staging/lineage-15.1" remote="ME"/>
-<project path="kernel/motorola/msm8916" name="oreo-surnia/android_kernel_motorola_msm8916" revision="lineage-15.1" remote="ME"/>
-<project path="vendor/motorola" name="oreo-surnia/proprietary_vendor_motorola" revision="oreo-mr1" remote="ME"/>
+<project path="device/motorola/surnia" name="oreo-surnia/android_device_motorola_surnia" revision="lineage-15.1" remote="ME"/>
+<project path="device/motorola/msm8916-common" name="oreo-surnia/android_device_motorola_msm8916-common" revision="oreo-mr1" remote="ME"/>
+<!-- <project path="kernel/motorola/msm8916" name="oreo-surnia/android_kernel_motorola_msm8916" revision="lineage-15.1-alberto" remote="ME"/> -->
+<project path="kernel/motorola/msm8916" name="oreo-surnia/android_kernel_motorola_msm8916" revision="hyperx" remote="ME"/> 
+<project path="vendor/motorola" name="oreo-surnia/proprietary_vendor_motorola" revision="lineage-15.1" remote="ME"/>
 
-<project path="external/bson" name="LineageOS/android_external_bson" revision="cm-14.1" remote="ME"/>
+<project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-15.1" remote="ME"/>
 <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="lineage-15.0" remote="ME"/>
-<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="staging/lineage-15.1" remote="ME"/>
+
+<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
 <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 
