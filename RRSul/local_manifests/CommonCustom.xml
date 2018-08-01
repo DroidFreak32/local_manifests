@@ -5,20 +5,41 @@
     <project path="patcher" name="DroidFreak32/patcher" revision="cm-14.1-general"  remote="github-ssh" />
 
 <!--Repositories to replace-->
-    <remove-project name="LineageOS/android_packages_apps_Gallery2" />
     <remove-project name="android_packages_apps_LockClock" />
     <remove-project name="android_vendor_resurrection" />
+    <remove-project name="cm_platform_sdk" />
+    <remove-project name="android_packages_apps_Dialer" />
+    <remove-project name="android_packages_apps_PhoneCommon" />
+    <remove-project name="android_packages_apps_ContactsCommon" />
+    <remove-project name="android_packages_apps_Contacts" />
+    <remove-project name="android_packages_services_Telecomm" />
+    <remove-project name="LineageOS/android_packages_apps_Gallery2" />
 
 <!--Repositories to fetch-->
     <!-- Upstream  -->
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common"  remote="github-ssh" />
+    <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0"  remote="github-ssh" />
     <project name="LineageOS/android_packages_apps_LockClock" path="packages/apps/LockClock"  remote="github-ssh" />
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings"  remote="github-ssh" />
-    <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0"  remote="github-ssh" />
 
     <!-- Custom -->
     <project path="packages/apps/WeatherProviders" name="sultanxda/android_packages_apps_WeatherProviders" revision="cm-14.1"  remote="github-ssh" />
     <project path="vendor/cm" name="ROM-FIXES/rr_vendor_resurrection" revision="nougat"  remote="github-ssh" />
+    <project path="vendor/cmsdk" name="ROM-FIXES/rr_cm_platform_sdk" revision="nougat"  remote="github-ssh" />
+    <project path="packages/apps/Dialer" name="ROM-FIXES/rr_packages_apps_Dialer" revision="nougat"  remote="github-ssh" />
+    <project path="packages/apps/PhoneCommon" name="ROM-FIXES/rr_packages_apps_PhoneCommon" revision="nougat"  remote="github-ssh" />
+    <project path="packages/apps/ContactsCommon" name="ROM-FIXES/rr_packages_apps_ContactsCommon" revision="nougat"  remote="github-ssh" />
+    <project path="packages/apps/Contacts" name="ROM-FIXES/rr_packages_apps_Contacts" revision="nougat"  remote="github-ssh" />
+    <project path="packages/services/Telecomm" name="ROM-FIXES/rr_packages_services_Telecomm" revision="nougat"  remote="github-ssh" />
     <project path="vendor/shishu" name="DroidFreak32/vendor_shishu" revision="arm64"  remote="github-ssh" />
+
+    <!-- Mergable -->
+    <remove-project name="android_packages_apps_Messaging" />
+    <project path="packages/apps/Messaging" name="ROM-FIXES/rr_packages_apps_Messaging" revision="nougat"  remote="github-ssh" />
+    
+    <remove-project name="android_packages_apps_PackageInstaller" />
+    <project path="packages/apps/PackageInstaller" name="ROM-FIXES/rr_packages_apps_PackageInstaller" revision="nougat"  remote="github-ssh" />
+
+    
 
 </manifest>

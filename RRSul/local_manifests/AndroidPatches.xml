@@ -13,9 +13,11 @@
             external/libvpx
             external/sonivox
             frameworks/opt/telephony
+            packages/apps/Bluetooth
             packages/providers/MediaProvider
             packages/providers/UserDictionaryProvider
             system/bt
+            system/media
 
         -->
 
@@ -25,15 +27,27 @@
     </project>
 
     <!-- These repos can just be merged with LineageOS repos with no conflicts as of now. -->
+    
+    <remove-project name="art" />
+    <project name="ROMSecPatches/rr_art" path="art" revision="nougat" remote="github-ssh" />
 
     <remove-project name="frameworks_av" />
     <project name="ROMSecPatches/rr_frameworks_av" path="frameworks/av" revision="nougat"  remote="github-ssh" />
+
+    <remove-project name="frameworks_native" />
+    <project name="ROMSecPatches/rr_frameworks_native" path="frameworks/native" revision="nougat"  remote="github-ssh" />
 
     <remove-project name="system_core" />
     <project name="ROMSecPatches/rr_system_core" path="system/core" revision="nougat"  remote="github-ssh" />
 
 
     <!-- These repos are replaced without any modifications. -->
+
+    <remove-project name="external_skia" />
+    <project path="external/skia" name="LineageOS/android_external_skia" remote="github-ssh" />
+
+    <remove-project name="platform/external/bouncycastle" />
+    <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" groups="pdk" remote="github-ssh" />
 
     <remove-project name="platform/external/libvorbis" />
     <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" groups="pdk-cw-fs,pdk-fs"  remote="github-ssh" />
