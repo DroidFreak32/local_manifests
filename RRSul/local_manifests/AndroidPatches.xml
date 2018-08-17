@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- You need to setup your ssh keys in github to use this remote -->
     <remote name="github-ssh" fetch="ssh://git@github.com" revision="cm-14.1" />
 
     <!-- Security Patches -->
 
         <!--  These repos are already tracked from LineageOS so we do not need to add them in this manifest:
 
+            external/aac
+            external/e2fsprogs
             external/libavc
             external/libhevc
             external/libmpeg2
@@ -14,10 +17,13 @@
             external/sonivox
             frameworks/opt/telephony
             packages/apps/Bluetooth
+            packages/apps/Email
+            packages/apps/UnifiedEmail
             packages/providers/MediaProvider
             packages/providers/UserDictionaryProvider
             system/bt
             system/media
+            system/vold
 
         -->
 
@@ -26,8 +32,15 @@
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
 
+
     <!-- These repos can just be merged with LineageOS repos with no conflicts as of now. -->
     
+    <remove-project name="android_packages_apps_Messaging" />
+    <project path="packages/apps/Messaging" name="ROMSecPatches/rr_packages_apps_Messaging" revision="nougat"  remote="github-ssh" />
+
+    <remove-project name="android_packages_apps_PackageInstaller" />
+    <project path="packages/apps/PackageInstaller" name="ROMSecPatches/rr_packages_apps_PackageInstaller" revision="nougat"  remote="github-ssh" />
+
     <remove-project name="art" />
     <project name="ROMSecPatches/rr_art" path="art" revision="nougat" remote="github-ssh" />
 
@@ -48,6 +61,9 @@
 
     <remove-project name="platform/external/bouncycastle" />
     <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" groups="pdk" remote="github-ssh" />
+
+    <remove-project name="platform/external/curl" />
+    <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" remote="github-ssh" />
 
     <remove-project name="platform/external/libvorbis" />
     <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" groups="pdk-cw-fs,pdk-fs"  remote="github-ssh" />
