@@ -14,11 +14,14 @@
             external/libhevc
             external/libmpeg2
             external/libvpx
+	    external/neven
             external/sonivox
             frameworks/opt/telephony
-            packages/apps/Bluetooth
+	    libcore
+	    packages/apps/Bluetooth
             packages/apps/Email
             packages/apps/UnifiedEmail
+	    packages/providers/DownloadProvider
             packages/providers/MediaProvider
             packages/providers/UserDictionaryProvider
             system/bt
@@ -70,6 +73,12 @@
 
     <remove-project name="platform/external/svox" />
     <project path="external/svox" name="platform/external/svox" groups="pdk" remote="aosp" revision="cee78199bbfae81f54a40671db47096f5f32cdad" />
+
+    <remove-project name="platform/external/libxml2" />
+    <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk,libxml2" />
+
+    <remove-project name="platform/external/neven" />
+    <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" />
 
     <remove-project name="platform/frameworks/ex" />
     <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" revision="cm-14.1"  remote="github-ssh" />
