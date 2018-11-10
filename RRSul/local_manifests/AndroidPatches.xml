@@ -14,7 +14,8 @@
             external/libhevc
             external/libmpeg2
             external/libvpx
-	    external/neven
+            external/neven
+            external/skia
             external/sonivox
             frameworks/opt/telephony
 	    libcore
@@ -65,6 +66,9 @@
     <remove-project name="platform/external/bouncycastle" />
     <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" groups="pdk" remote="github-ssh" />
 
+    <remove-project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" remote="aosp" />
+    <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" />
+
     <remove-project name="platform/external/curl" />
     <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" remote="github-ssh" />
 
@@ -79,6 +83,9 @@
 
     <remove-project name="platform/external/neven" />
     <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" />
+
+    <remove-project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
+    <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" />
 
     <remove-project name="platform/frameworks/ex" />
     <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" revision="cm-14.1"  remote="github-ssh" />
