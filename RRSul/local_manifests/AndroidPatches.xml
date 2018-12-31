@@ -13,16 +13,17 @@
             external/libavc
             external/libhevc
             external/libmpeg2
+            external/libnfc-nci
             external/libvpx
             external/neven
             external/skia
             external/sonivox
             frameworks/opt/telephony
-	    libcore
-	    packages/apps/Bluetooth
+            libcore
+            packages/apps/Bluetooth
             packages/apps/Email
             packages/apps/UnifiedEmail
-	    packages/providers/DownloadProvider
+            packages/providers/DownloadProvider
             packages/providers/MediaProvider
             packages/providers/UserDictionaryProvider
             system/bt
@@ -90,11 +91,13 @@
     <remove-project name="platform/frameworks/ex" />
     <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" revision="cm-14.1"  remote="github-ssh" />
 
-
+    <remove-project name="platform/system/update_engine" />
+    <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" revision="cm-14.1"  remote="github-ssh" />
+    
     <!-- These repos need to be updated with patches by cherry-picking them manually. -->
 
     <remove-project name="android_frameworks_base" />
-    <project name="ROM-FIXES/rr_frameworks_base" path="frameworks/base" revision="nougat"  remote="github-ssh" />
+    <project name="ROM-FIXES/rr_frameworks_base" path="frameworks/base" revision="nougat2"  remote="github-ssh" />
 
     <remove-project name="Resurrection_packages_apps_Settings" />
     <project name="ROM-FIXES/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="nougat"  remote="github-ssh" />
