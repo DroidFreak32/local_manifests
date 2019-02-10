@@ -18,10 +18,12 @@
             external/neven
             external/skia
             external/sonivox
+            external/wpa_supplicant_8
             frameworks/opt/telephony
             libcore
             packages/apps/Bluetooth
             packages/apps/Email
+            packages/apps/ManagedProvisioning
             packages/apps/UnifiedEmail
             packages/providers/DownloadProvider
             packages/providers/MediaProvider
@@ -39,6 +41,9 @@
 
 
     <!-- These repos can just be merged with LineageOS repos with no conflicts as of now. -->
+
+    <remove-project name="android_packages_apps_Contacts" />
+    <project path="packages/apps/Contacts" name="ROMSecPatches/rr_packages_apps_Contacts" revision="nougat"  remote="github-ssh" />
     
     <remove-project name="android_packages_apps_Messaging" />
     <project path="packages/apps/Messaging" name="ROMSecPatches/rr_packages_apps_Messaging" revision="nougat"  remote="github-ssh" />
