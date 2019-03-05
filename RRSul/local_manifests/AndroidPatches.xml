@@ -63,7 +63,6 @@
     <remove-project name="system_core" />
     <project name="ROMSecPatches/rr_system_core" path="system/core" revision="nougat"  remote="github-ssh" />
 
-
     <!-- These repos are replaced without any modifications. -->
 
     <remove-project name="external_skia" />
@@ -110,7 +109,7 @@
     <remove-project name="android_packages_services_Telephony" />
     <project name="ROMSecPatches/rr_packages_services_Telephony" path="packages/services/Telephony" revision="nougat"  remote="github-ssh" />
 
-
+    <remove-project name="platform/external/opencv" />
 
     <!-- Useless Repositories to remove-->
     <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
