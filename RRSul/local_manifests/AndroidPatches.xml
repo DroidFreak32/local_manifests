@@ -18,6 +18,8 @@
             external/neven
             external/skia
             external/sonivox
+            external/sqlite
+            external/tremolo
             external/wpa_supplicant_8
             frameworks/opt/telephony
             libcore
