@@ -3,13 +3,13 @@
 
 	<remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-16.0" />
 
-	<project name="oreo-surnia/android_device_motorola_surnia" path="device/motorola/surnia" remote="github-ssh" revision="lineage-16.0-chil" />
+	<project name="oreo-surnia/android_device_motorola_surnia" path="device/motorola/surnia" remote="github-ssh" revision="lineage-16.0-squid" />
 	<project name="oreo-surnia/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github-ssh" revision="lineage-16.0-chil" />
-	<project name="oreo-surnia/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github-ssh" revision="lineage-16.0-chil" />
-	<project name="oreo-surnia/proprietary_vendor_motorola" path="vendor/motorola" remote="github-ssh" revision="lineage-16.0-chil" />
+	<project name="oreo-surnia/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github-ssh" revision="lineage-16.0-squid" />
+	<project name="MinimalAndroidVendor/proprietary_vendor_motorola_msm8916" path="vendor/motorola" remote="github-ssh" revision="lineage-16.0-chil" />
 
-	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github-ssh" revision="lineage-15.1" />
-	<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github-ssh" revision="lineage-15.1" />
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github-ssh" revision="lineage-16.0" />
+	<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github-ssh" revision="lineage-16.0" />
 
 	<!-- Linaro 7.3 kernel toolchain -->
 	<project name="dev-harsh1998/GCC_BUILDS" path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.3" remote="github-ssh" revision="master" />
