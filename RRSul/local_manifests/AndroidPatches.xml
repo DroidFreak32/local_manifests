@@ -66,7 +66,7 @@
     <project name="ROMSecPatches/rr_system_core" path="system/core" revision="nougat"  remote="github-ssh" />
 
     <!-- These repos are replaced without any modifications. -->
-
+    
     <remove-project name="external_skia" />
     <project path="external/skia" name="LineageOS/android_external_skia" remote="github-ssh" />
 
@@ -78,6 +78,9 @@
 
     <remove-project name="platform/external/curl" />
     <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" remote="github-ssh" />
+
+    <remove-project name="platform/external/libpng" />
+    <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" />
 
     <remove-project name="platform/external/libvorbis" />
     <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" groups="pdk-cw-fs,pdk-fs"  remote="github-ssh" />
