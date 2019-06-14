@@ -30,7 +30,7 @@
     <project path="packages/apps/PhoneCommon" name="ROM-FIXES/rr_packages_apps_PhoneCommon" revision="nougat"  remote="github-ssh" />
     <project path="packages/apps/ContactsCommon" name="ROM-FIXES/rr_packages_apps_ContactsCommon" revision="nougat"  remote="github-ssh" />
     <project path="packages/services/Telecomm" name="ROM-FIXES/rr_packages_services_Telecomm" revision="nougat"  remote="github-ssh" />
-    <project path="vendor/shishu" name="DroidFreak32/vendor_shishu" revision="minimal-arm64"  remote="github-ssh" />
+    <project path="vendor/shishu" name="MinimalAndroidVendor/mnml_vendor_shishu" revision="minimal-arm64"  remote="github-ssh" />
     
 
 </manifest>
