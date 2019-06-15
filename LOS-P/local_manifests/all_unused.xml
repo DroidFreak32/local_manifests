@@ -20,7 +20,6 @@
   <remove-project name="platform/external/autotest" />
   <remove-project name="platform/external/linux-kselftest" />
   <remove-project name="platform/hardware/intel/audio_media" />
-  <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
   <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
   <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
