@@ -2,6 +2,8 @@
 <!-- android_development_manifests -->
 <manifest>
 
+  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-16.0" />
+  
   <!-- Google AOSP - Unneeded Projects -->
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
