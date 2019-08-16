@@ -80,7 +80,7 @@
     <remove-project name="platform/external/chromium-libpac" />
     <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" clone-depth="1" />
 
-    <remove-project name="platform/external/chromium-webview" />
+    <remove-project name="LineageOS/android_external_chromium-webview" />
     <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" revision="master" />
 
     <remove-project name="platform/external/curl" />
