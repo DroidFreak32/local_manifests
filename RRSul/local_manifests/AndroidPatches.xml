@@ -110,6 +110,9 @@
     <remove-project name="platform/frameworks/ex" />
     <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" revision="cm-14.1"  remote="github-ssh" />
 
+    <remove-project name="platform/system/gatekeeper" />
+    <project path="system/gatekeeper" name="LineageOS/android_system_gatekeeper" groups="pdk" revision="cm-14.1"  remote="github-ssh" />
+
     <remove-project name="platform/system/update_engine" />
     <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" revision="cm-14.1"  remote="github-ssh" />
     
