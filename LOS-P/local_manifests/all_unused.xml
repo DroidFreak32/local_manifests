@@ -33,9 +33,6 @@
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
 
-  <!-- LineageOS - AOSP - Unneeded Projects -->
-  <remove-project name="LineageOS/android_device_generic_goldfish" />
-
   <!-- LineageOS - Infrastructure - Unneeded Projects -->
   <remove-project name="LineageOS/ansible" />
   <remove-project name="LineageOS/contributors-cloud-generator" />
