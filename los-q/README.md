@@ -1,7 +1,7 @@
 
 Lineage 17.0 for Surnia
 =======================
-
+<!--
 Current Status
 --------------
 
@@ -25,6 +25,7 @@ Download
 --------
 
 My current builds are available [here](https://chil360.github.io/).
+-->
 
 Build Instructions
 ------------------
