@@ -21,11 +21,6 @@
   <remove-project name="device/sample" />
   <remove-project name="platform/external/autotest" />
   <remove-project name="platform/external/linux-kselftest" />
-  <remove-project name="platform/hardware/intel/audio_media" />
-  <remove-project name="platform/hardware/intel/common/bd_prov" />
-  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
-  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
-  <remove-project name="platform/hardware/marvell/bt" />
   <remove-project name="platform/prebuilts/android-emulator" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <remove-project name="platform/prebuilts/gdb/darwin-x86" />
@@ -44,10 +39,5 @@
   <remove-project name="LineageOS/slackbot" />
   <remove-project name="LineageOS/www" />
   <remove-project name="LineageOS/lineage_wiki" />
-
-
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <project name="oreo-surnia/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="github-ssh" revision="lineage-16.0-caf-8916" />
-  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="lineage-16.0-caf-8996" />
 
 </manifest>
