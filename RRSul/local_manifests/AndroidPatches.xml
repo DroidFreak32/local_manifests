@@ -95,6 +95,9 @@
     <remove-project name="platform/external/sfntly" />
     <project path="external/sfntly" name="LineageOS/android_external_sfntly" groups="pdk,qcom_msm8x26" clone-depth="1" />
 
+    <remove-project name="platform/external/sfntly" />
+    <project path="external/sfntly" name="LineageOS/android_external_sfntly" groups="pdk,qcom_msm8x26" /> 
+ 
     <remove-project name="platform/external/svox" />
     <project path="external/svox" name="platform/external/svox" groups="pdk" remote="aosp" revision="cee78199bbfae81f54a40671db47096f5f32cdad" />
 
