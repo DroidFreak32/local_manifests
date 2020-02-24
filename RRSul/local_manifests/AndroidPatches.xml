@@ -26,6 +26,7 @@
             frameworks/opt/telephony
             libcore
             packages/apps/Bluetooth
+            packages/apps/CertInstaller
             packages/apps/Email
             packages/apps/ManagedProvisioning
             packages/apps/Nfc
