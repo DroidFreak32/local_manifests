@@ -2,14 +2,9 @@
 <!-- android_development_manifests -->
 <manifest>
 
-  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-16.0" />
+  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-17.1" />
   
   <!-- Google AOSP - Unneeded Projects -->
-  <remove-project name="device/common" />
-  <remove-project name="device/generic/arm64" />
-  <remove-project name="device/generic/armv7-a-neon" />
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/goldfish-opengl" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
