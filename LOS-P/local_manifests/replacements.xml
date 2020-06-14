@@ -2,7 +2,6 @@
 <!-- android_development_manifests -->
 <manifest>
 
-  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-16.0" />
   <!--
   <remove-project name="LineageOS/android_build" path="build/make"/>
   <project name="LineageOS/android_build" path="build/make" >
