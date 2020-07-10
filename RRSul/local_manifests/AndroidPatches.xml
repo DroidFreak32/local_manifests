@@ -94,6 +94,9 @@
     <remove-project name="platform/external/libcxx" />
     <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" />
 
+    <remove-project name="platform/external/libexif" />
+    <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" />
+
     <remove-project name="platform/external/libjpeg-turbo" />
     <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" groups="pdk" />
 

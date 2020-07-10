@@ -23,7 +23,6 @@
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github-ssh" />
 
     <!-- Custom -->
-    <project path="packages/apps/WeatherProviders" name="sultanxda/android_packages_apps_WeatherProviders" revision="cm-14.1" remote="github-ssh" />
     <project path="vendor/cm" name="ROM-FIXES/rr_vendor_resurrection" revision="nougat" remote="github-ssh" />
     <project path="vendor/cmsdk" name="ROM-FIXES/rr_cm_platform_sdk" revision="nougat" remote="github-ssh" />
     <project path="packages/apps/Dialer" name="ROM-FIXES/rr_packages_apps_Dialer" revision="nougat" remote="github-ssh" />
