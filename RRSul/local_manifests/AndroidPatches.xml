@@ -11,7 +11,8 @@
             external/aac
             external/chromium-libpac
             external/e2fsprogs
-            external/libavc
+            external/gptfdisk
+	    external/libavc
             external/libhevc
             external/libmpeg2
             external/libnfc-nci
@@ -87,6 +88,9 @@
 
     <remove-project name="platform/external/curl" />
     <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" remote="github-ssh" clone-depth="1" />
+
+    <remove-project name="platform/external/dng_sdk" />
+    <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" clone-depth="1" />
 
     <remove-project name="platform/external/ImageMagick" />
     <project path="external/ImageMagick" name="LineageOS/android_external_ImageMagick" groups="pdk" />
