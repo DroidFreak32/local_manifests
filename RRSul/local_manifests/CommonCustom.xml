@@ -4,6 +4,11 @@
     <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
     <project path="patcher" name="DroidFreak32/patcher" revision="cm-14.1-general" remote="github-ssh" />
 
+    <remote  name="aosp2"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-10.0.0_r47"/>
+
 <!--Repositories to replace-->
     <remove-project name="android_packages_apps_LockClock" />
     <remove-project name="android_vendor_resurrection" />
@@ -26,9 +31,9 @@
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github-ssh" />
 
     <!-- Custom -->
-    <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk" remote="aosp" revision="android-10.0.0_r47" />
-    <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp" revision="android-10.0.0_r47" />
-    <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" remote="aosp" revision="android-10.0.0_r47" />
+    <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk" remote="aosp2" />
+    <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp2" />
+    <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" remote="aosp2" />
     <project path="vendor/cm" name="ROM-FIXES/rr_vendor_resurrection" revision="nougat" remote="github-ssh" />
     <project path="vendor/cmsdk" name="ROM-FIXES/rr_cm_platform_sdk" revision="nougat" remote="github-ssh" />
     <project path="packages/apps/Dialer" name="ROM-FIXES/rr_packages_apps_Dialer" revision="nougat" remote="github-ssh" />
