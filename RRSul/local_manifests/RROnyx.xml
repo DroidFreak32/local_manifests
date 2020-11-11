@@ -8,6 +8,6 @@
     <project name="LineageOS/android_kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" />
 
     <!-- Custom -->
-    <project  path="device/oppo/common" name="DroidFreak32/android_device_oppo_common" revision="cm-14.1"  remote="github-ssh" />
-    <project path="vendor/oneplus" name="DroidFreak32/proprietary_vendor_oneplus" revision="cm-14.1-mnml-onyx"  remote="github-ssh" />
+    <project path="vendor/oneplus/onyx" name="MinimalAndroidVendor/proprietary_vendor_onyx" revision="cm-14.1-sultan"  remote="github-ssh" />
+
 </manifest>
