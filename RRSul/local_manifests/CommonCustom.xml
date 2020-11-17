@@ -10,7 +10,7 @@
            revision="refs/tags/android-10.0.0_r47"/>
 
 <!--Repositories to replace-->
-    <remove-project name="android_frameworks_support" />
+    <remove-project name="LineageOS/android_frameworks_support" />
     <remove-project name="android_packages_apps_LockClock" />
     <remove-project name="android_vendor_resurrection" />
     <remove-project name="cm_platform_sdk" />
