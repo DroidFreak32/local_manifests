@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-17.1" />
+
+    <remove-project name="android_bootable_recovery" />
+    <project path="bootable/recovery" name="DroidFreak32/android_bootable_recovery" remote="github-ssh" revision="android-10.0" />
+
+</manifest>
