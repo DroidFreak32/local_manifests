@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- android_development_manifests -->
+<manifest>
+    
+    <project name="oreo-surnia/android_device_motorola_surnia" path="device/motorola/surnia" remote="github-ssh" revision="lineage-17.1" />
+    <project name="oreo-surnia/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github-ssh" revision="lineage-17.1" />
+    <project name="oreo-surnia/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github-ssh" revision="lineage-17.1" />
+    <project name="MinimalAndroidVendor/proprietary_vendor_motorola_msm8916" path="vendor/motorola" remote="github-ssh" revision="lineage-17.1" />
+    <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github-ssh" revision="lineage-17.1" />
+    <project name="LineageOS/android_system_qcom" path="system/qcom" groups="qcom" remote="github-ssh" revision="lineage-17.1" />
+    <project name="LineageOS/android_external_bson" path="external/bson" remote="github-ssh" revision="lineage-17.1" />
+    <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep"  remote="github-ssh" revision="lineage-17.1" />
+
+  <!--
+  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-16.0" />
+  <remove-project name="LineageOS/android_build" path="build/make"/>
+  <project name="ROM-FIXES/android_build" path="build/make" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
+  <project name="ROM-FIXES/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" />
+  <remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
+  <project name="ROM-FIXES/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" />
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
+  <project name="ROM-FIXES/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github-ssh" />
+  <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
+
+  <project name="ROM-FIXES/android_frameworks_base" path="frameworks/base" remote="github-ssh" />
+  <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
+
+  <project name="ROM-FIXES/android_frameworks_av" path="frameworks/av" remote="github-ssh" />
+  <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
+  <project name="ROM-FIXES/android_frameworks_native" path="frameworks/native" remote="github-ssh" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
+  <project name="ROM-FIXES/android_packages_apps_Settings" path="packages/apps/Settings" remote="github-ssh" />
+
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <project name="oreo-surnia/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="github-ssh" revision="lineage-16.0-caf-8916" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="lineage-16.0-caf-8996" />
+-->
+</manifest>
