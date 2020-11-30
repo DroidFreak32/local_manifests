@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!--
     <remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
-    <project name="ROM-FIXES/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" />
+    <project name="ROM-FIXES/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" revision="lineage-17.1" />
 
     <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
     <project name="ROM-FIXES/android_frameworks_base" path="frameworks/base" remote="github-ssh" revision="lineage-17.1-fixes" />
@@ -19,10 +18,10 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <project name="ROM-FIXES/android_vendor_support" path="vendor/support" remote="github-ssh" />
-    <project name="ROM-FIXES/android_external_pulse" path="external/pulse" remote="github-ssh" />
+    <project name="ROM-FIXES/android_vendor_support" path="vendor/support" remote="github-ssh" revision="lineage-17.1" />
+    <project name="ROM-FIXES/android_external_pulse" path="external/pulse" remote="github-ssh" revision="lineage-17.1" />
 
     <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
-    <project name="ROM-FIXES/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" />
--->
+    <project name="ROM-FIXES/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" revision="lineage-17.1" />
+
 </manifest>
