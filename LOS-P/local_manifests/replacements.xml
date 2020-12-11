@@ -5,7 +5,7 @@
   <!--
   <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-16.0" />
   <remove-project name="LineageOS/android_build" path="build/make"/>
-  <project name="ROM-FIXES/android_build" path="build/make" >
+  <project name="ROM-EXTRAS/android_build" path="build/make" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -16,28 +16,28 @@
   </project>
 
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
-  <project name="ROM-FIXES/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" />
+  <project name="ROM-EXTRAS/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" />
 
   <remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
-  <project name="ROM-FIXES/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" />
+  <project name="ROM-EXTRAS/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" />
 
   <remove-project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
-  <project name="ROM-FIXES/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github-ssh" />
+  <project name="ROM-EXTRAS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github-ssh" />
 
   <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
-  <project name="ROM-FIXES/android_frameworks_base" path="frameworks/base" remote="github-ssh" />
+  <project name="ROM-EXTRAS/android_frameworks_base" path="frameworks/base" remote="github-ssh" />
 
   <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
-  <project name="ROM-FIXES/android_frameworks_av" path="frameworks/av" remote="github-ssh" />
+  <project name="ROM-EXTRAS/android_frameworks_av" path="frameworks/av" remote="github-ssh" />
 
   <remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
-  <project name="ROM-FIXES/android_frameworks_native" path="frameworks/native" remote="github-ssh" />
+  <project name="ROM-EXTRAS/android_frameworks_native" path="frameworks/native" remote="github-ssh" />
 
   <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
-  <project name="ROM-FIXES/android_packages_apps_Settings" path="packages/apps/Settings" remote="github-ssh" />
+  <project name="ROM-EXTRAS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github-ssh" />
 
   <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
-  <project name="ROM-FIXES/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github-ssh" />
+  <project name="ROM-EXTRAS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github-ssh" />
 
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <project name="oreo-surnia/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="github-ssh" revision="lineage-16.0-caf-8916" />

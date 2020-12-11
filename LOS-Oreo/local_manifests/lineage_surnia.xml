@@ -17,7 +17,7 @@
 
 <!-- Cuz slow speed -->
 <remove-project name="LineageOS/android_frameworks_base" />
-<project path="frameworks/base" name="ROM-FIXES/android_frameworks_base" revision="lineage-15.1" remote="ME"/>
+<project path="frameworks/base" name="ROM-EXTRAS/android_frameworks_base" revision="lineage-15.1" remote="ME"/>
 
 <project path="device/motorola/surnia" name="oreo-surnia/android_device_motorola_surnia" revision="lineage-15.1-squid" remote="ME"/>
 <project path="device/motorola/msm8916-common" name="oreo-surnia/android_device_motorola_msm8916-common" revision="lineage-15.1-squid" remote="ME"/>

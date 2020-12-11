@@ -28,22 +28,22 @@
 <!--Repositories to fetch-->
     <!-- Upstream  -->
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github-ssh" />
-    <project name="ROM-FIXES/android_frameworks_support" path="frameworks/support" remote="github-ssh" />
-    <project name="ROM-FIXES/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0" remote="github-ssh" />
-    <project name="ROM-FIXES/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github-ssh" />
-    <project name="ROM-FIXES/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github-ssh" />
+    <project name="ROM-EXTRAS/android_frameworks_support" path="frameworks/support" remote="github-ssh" />
+    <project name="ROM-EXTRAS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0" remote="github-ssh" />
+    <project name="ROM-EXTRAS/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github-ssh" />
+    <project name="ROM-EXTRAS/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github-ssh" />
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github-ssh" />
 
     <!-- Custom -->
     <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk" remote="aosp2" />
     <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp2" />
     <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" remote="aosp2" />
-    <project path="vendor/cm" name="ROM-FIXES/rr_vendor_resurrection" revision="nougat" remote="github-ssh" />
-    <project path="vendor/cmsdk" name="ROM-FIXES/rr_cm_platform_sdk" revision="nougat" remote="github-ssh" />
-    <project path="packages/apps/Dialer" name="ROM-FIXES/rr_packages_apps_Dialer" revision="nougat" remote="github-ssh" />
-    <project path="packages/apps/PhoneCommon" name="ROM-FIXES/rr_packages_apps_PhoneCommon" revision="nougat" remote="github-ssh" />
-    <project path="packages/apps/ContactsCommon" name="ROM-FIXES/rr_packages_apps_ContactsCommon" revision="nougat" remote="github-ssh" />
-    <project path="packages/services/Telecomm" name="ROM-FIXES/rr_packages_services_Telecomm" revision="nougat" remote="github-ssh" />
+    <project path="vendor/cm" name="ROM-EXTRAS/rr_vendor_resurrection" revision="nougat" remote="github-ssh" />
+    <project path="vendor/cmsdk" name="ROM-EXTRAS/rr_cm_platform_sdk" revision="nougat" remote="github-ssh" />
+    <project path="packages/apps/Dialer" name="ROM-EXTRAS/rr_packages_apps_Dialer" revision="nougat" remote="github-ssh" />
+    <project path="packages/apps/PhoneCommon" name="ROM-EXTRAS/rr_packages_apps_PhoneCommon" revision="nougat" remote="github-ssh" />
+    <project path="packages/apps/ContactsCommon" name="ROM-EXTRAS/rr_packages_apps_ContactsCommon" revision="nougat" remote="github-ssh" />
+    <project path="packages/services/Telecomm" name="ROM-EXTRAS/rr_packages_services_Telecomm" revision="nougat" remote="github-ssh" />
     <project path="vendor/shishu" name="MinimalAndroidVendor/mnml_vendor_shishu" revision="pie" clone-depth="1" remote="github-ssh" />
 
 </manifest>

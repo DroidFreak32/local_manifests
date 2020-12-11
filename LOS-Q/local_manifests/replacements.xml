@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
-    <project name="ROM-FIXES/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" revision="lineage-17.1" />
+    <project name="ROM-EXTRAS/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" revision="lineage-17.1" />
 
     <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
-    <project name="ROM-FIXES/android_frameworks_base" path="frameworks/base" remote="github-ssh" revision="lineage-17.1-fixes" />
+    <project name="ROM-EXTRAS/android_frameworks_base" path="frameworks/base" remote="github-ssh" revision="lineage-17.1-fixes" />
 
     <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
-    <project name="ROM-FIXES/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github-ssh" revision="lineage-17.1" />
+    <project name="ROM-EXTRAS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github-ssh" revision="lineage-17.1" />
 
     <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
-    <project name="ROM-FIXES/android_packages_apps_Settings" path="packages/apps/Settings" remote="github-ssh" revision="lineage-17.1-fixes" />
+    <project name="ROM-EXTRAS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github-ssh" revision="lineage-17.1-fixes" />
 
     <remove-project name="LineageOS/android_build_soong" />
-    <project path="build/soong" name="ROM-FIXES/android_build_soong" revision="lineage-17.1" >
+    <project path="build/soong" name="ROM-EXTRAS/android_build_soong" revision="lineage-17.1" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <project name="ROM-FIXES/android_vendor_support" path="vendor/support" remote="github-ssh" revision="lineage-17.1" />
-    <project name="ROM-FIXES/android_external_pulse" path="external/pulse" remote="github-ssh" revision="lineage-17.1" />
+    <project name="ROM-EXTRAS/android_vendor_support" path="vendor/support" remote="github-ssh" revision="lineage-17.1" />
+    <project name="ROM-EXTRAS/android_external_pulse" path="external/pulse" remote="github-ssh" revision="lineage-17.1" />
 
     <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
-    <project name="ROM-FIXES/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" revision="lineage-17.1" />
+    <project name="ROM-EXTRAS/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" revision="lineage-17.1" />
 
 </manifest>

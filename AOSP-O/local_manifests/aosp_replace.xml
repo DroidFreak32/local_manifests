@@ -89,9 +89,9 @@
 
     <!-- Replaced HALs from External Orgs -->
     <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" revision="lineage-15.0-caf" remote="ME" />
-    <project path="hardware/qcom/audio-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_audio" revision="lineage-15.0-caf-8916" remote="ME" />
-    <project path="hardware/qcom/display-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_display" revision="lineage-15.0-caf-8916" remote="ME" />
-    <project path="hardware/qcom/media-caf/msm8916" name="ROM-FIXES/android_hardware_qcom_media" revision="lineage-15.0-caf-8916" remote="ME" />
+    <project path="hardware/qcom/audio-caf/msm8916" name="ROM-EXTRAS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8916" remote="ME" />
+    <project path="hardware/qcom/display-caf/msm8916" name="ROM-EXTRAS/android_hardware_qcom_display" revision="lineage-15.0-caf-8916" remote="ME" />
+    <project path="hardware/qcom/media-caf/msm8916" name="ROM-EXTRAS/android_hardware_qcom_media" revision="lineage-15.0-caf-8916" remote="ME" />
     <project path="hardware/qcom/wlan-caf" name="AOSP-8916/hardware_qcom_wlan" revision="oreo" remote="ME" />
     <project path="hardware/ril-caf" name="AOSP-8916/hardware_ril-caf" revision="oreo" remote="ME" />
 

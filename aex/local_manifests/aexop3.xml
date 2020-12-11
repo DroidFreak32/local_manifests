@@ -8,11 +8,11 @@
 <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-14.1" />
 <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
 <remove-project name="platform_frameworks_base" />
-<project name="ROM-FIXES/aex_frameworks_base" path="frameworks/base" remote="github" revision="ga" />
+<project name="ROM-EXTRAS/aex_frameworks_base" path="frameworks/base" remote="github" revision="ga" />
 <remove-project name="platform_frameworks_native" />
-<project name="ROM-FIXES/aex_frameworks_native" path="frameworks/native" remote="github" revision="7.x" />
+<project name="ROM-EXTRAS/aex_frameworks_native" path="frameworks/native" remote="github" revision="7.x" />
 <remove-project name="platform_packages_apps_Settings" />
-<project name="ROM-FIXES/aex_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="7.x" />
+<project name="ROM-EXTRAS/aex_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="7.x" />
 <remove-project name="platform_packages_apps_Extensions" />
-<project name="ROM-FIXES/aex_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="ga" />
+<project name="ROM-EXTRAS/aex_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="ga" />
 </manifest>

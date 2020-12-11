@@ -28,11 +28,11 @@
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_hardware_ril" />
   <remove-project name="LineageOS/android_hardware_libhardware" />
-  <project path="bionic/" name="ROM-FIXES/android_bionic" revision="lineage-15.0" />
-  <project path="vendor/lineage" name="ROM-FIXES/android_vendor_lineage" revision="lineage-15.0" />
-  <project path="system/core" name="ROM-FIXES/android_system_core" revision="lineage-15.0" />
-<project path="hardware/ril" name="ROM-FIXES/android_hardware_ril" revision="lineage-15.0" />
-<project path="hardware/libhardware" name="ROM-FIXES/android_hardware_libhardware" revision="lineage-15.0" />
+  <project path="bionic/" name="ROM-EXTRAS/android_bionic" revision="lineage-15.0" />
+  <project path="vendor/lineage" name="ROM-EXTRAS/android_vendor_lineage" revision="lineage-15.0" />
+  <project path="system/core" name="ROM-EXTRAS/android_system_core" revision="lineage-15.0" />
+<project path="hardware/ril" name="ROM-EXTRAS/android_hardware_ril" revision="lineage-15.0" />
+<project path="hardware/libhardware" name="ROM-EXTRAS/android_hardware_libhardware" revision="lineage-15.0" />
 </manifest>
 
 
