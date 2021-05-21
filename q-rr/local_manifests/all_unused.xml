@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- android_development_manifests -->
+<manifest>
+
+  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-17.1" />
+
+</manifest>
