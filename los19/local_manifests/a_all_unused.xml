@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-19.1" />
+  <remote name="gitlab-ssh" fetch="ssh://git@gitlab.com" revision="lineage-19.1" />
+
+  <!-- Google AOSP - Unneeded Projects -->
+
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="platform/external/autotest" />
+  <remove-project name="platform/external/linux-kselftest" />
+
+</manifest>
