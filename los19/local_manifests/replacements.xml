@@ -2,18 +2,18 @@
 <manifest>
 
   <remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
-  <project name="ROM-EXTRAS/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" revision="lineage-19.1" />
+  <project name="ROM-EXTRAS/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
 
   <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
-  <project name="ROM-EXTRAS/android_frameworks_base" path="frameworks/base" remote="github-ssh" revision="lineage-19.1" />
+  <project name="ROM-EXTRAS/android_frameworks_base" path="frameworks/base" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
 
   <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
-  <project name="ROM-EXTRAS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github-ssh" revision="lineage-19.1" />
+  <project name="ROM-EXTRAS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
 
   <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
-  <project name="ROM-EXTRAS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github-ssh" revision="lineage-19.1" />
+  <project name="ROM-EXTRAS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
 
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
-  <project name="ROM-EXTRAS/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" revision="lineage-19.1" />
+  <project name="ROM-EXTRAS/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
 
 </manifest>
