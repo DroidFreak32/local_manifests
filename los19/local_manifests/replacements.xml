@@ -16,4 +16,10 @@
   <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
   <project name="ROM-EXTRAS/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
 
+  <project path="external/colorkt" name="crdroidandroid/android_external_colorkt" remote="crdroid" />
+  <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="crdroid" />
+  <project path="vendor/lawnicons" name="crdroidandroid/android_vendor_lawnicons" remote="crdroid" />
+  <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
+  <project path="packages/apps/crDroidSettings" name="ROM-EXTRAS/crDroidSettings" remote="github-ssh" revision="lineage-19.1" />
+
 </manifest>

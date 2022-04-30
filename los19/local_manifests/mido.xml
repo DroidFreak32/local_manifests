@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+	<!--
   <project path="device/xiaomi/mido" name="DroidFreak32/android_device_xiaomi_mido" remote="github-ssh" />
   <project path="vendor/xiaomi" name="zeelog/proprietary_vendor_xiaomi" remote="github-ssh" clone-depth="1" />
   <project path="kernel/xiaomi/mido" name="zeelog/android_kernel_xiaomi_mido" remote="github-ssh" />
+        -->
 </manifest>
