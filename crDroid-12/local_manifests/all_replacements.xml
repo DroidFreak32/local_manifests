@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-19.1" />
+  <remote name="gitlab-ssh" fetch="ssh://git@gitlab.com" revision="lineage-19.1" />
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="twelve"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience/twelve"
+          revision="twelve" />
+
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="twelve" />
+
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="twelve" />
+
+  <remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="twelve" />
+
+  <remote  name="crdroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/12.1" />
+
+    <remove-project name="crdroidandroid/android_lineage-sdk" path="lineage-sdk" />
+    <project name="ROM-EXTRAS/crdroid_lineage-sdk" path="lineage-sdk" remote="github-ssh" revision="12.1" />
+
+    <remove-project name="crdroidandroid/android_frameworks_base" path="frameworks/base" />
+    <project name="ROM-EXTRAS/crdroid_frameworks_base" path="frameworks/base" remote="github-ssh" revision="12.1" />
+
+    <!-- <remove-project name="crdroidandroid/android_packages_apps_LineageParts" path="packages/apps/LineageParts" /> -->
+    <!-- <project name="ROM-EXTRAS/crdroid_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github-ssh" revision="12.1" /> -->
+
+    <remove-project name="crdroidandroid/android_packages_apps_Settings" path="packages/apps/Settings" />
+    <project name="ROM-EXTRAS/crdroid_packages_apps_Settings" path="packages/apps/Settings" remote="github-ssh" revision="12.1" />
+
+    <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" path="packages/apps/Settings" />
+    <project name="ROM-EXTRAS/android_packages_apps_crDroidSettings" path="packages/apps/crDroidSettings" remote="github-ssh" revision="12.1" />
+
+  <project path="vendor/xiaomi/miatoll" remote="pixel-devices-blobs" name="vendor_xiaomi_miatoll" revision="twelve" />
+  <project path="kernel/xiaomi/sm6250" remote="github" name="crdroidandroid/android_kernel_xiaomi_sm6250" revision="12.1" />
+  <project path="vendor/xiaomi/sm6250-common" remote="github-ssh" name="crdroidandroid/android_vendor_xiaomi_sm6250-common" revision="12.0-new" />
+  <project path="hardware/xiaomi" remote="github-ssh" name="LineageOS/android_hardware_xiaomi" />
+  <project path="device/xiaomi/miatoll" remote="github-ssh" name="crdroidandroid/android_device_xiaomi_miatoll" revision="12.1" />
+  <project path="device/xiaomi/sm6250-common" remote="github-ssh" name="DroidFreak32/device_xiaomi_sm6250-common"  revision="12.1" />
+</manifest>
+
