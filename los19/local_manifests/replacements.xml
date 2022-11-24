@@ -17,6 +17,7 @@
   <remove-project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
+  <remove-project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
 
@@ -46,7 +47,7 @@
 
 <project
   path="frameworks/libs/net"
-  name="platform/frameworks/libs/net"
+  name="ROM-EXTRAS/android_frameworks_libs_net"
   remote="github-ssh"
   revision="tmp-nov22rebase"
   groups="EXTRAS"
@@ -117,6 +118,14 @@
 />
 
 <project
+  path="packages/overlays/Lineage"
+  name="ROM-EXTRAS/android_packages_overlays_Lineage"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
   path="packages/services/Telecomm"
   name="ROM-EXTRAS/android_packages_services_Telecomm"
   remote="github-ssh"
@@ -143,22 +152,6 @@
 <project
   path="vendor/lineage"
   name="ROM-EXTRAS/android_vendor_lineage"
-  remote="github-ssh"
-  revision="tmp-nov22rebase"
-  groups="EXTRAS"
-/>
-
-<project
-  path="vendor/addons"
-  name="ROM-EXTRAS/android_vendor_addons"
-  remote="github-ssh"
-  revision="tmp-nov22rebase"
-  groups="EXTRAS"
-/>
-
-<project
-  path="packages/apps/crDroidSettings"
-  name="ROM-EXTRAS/crDroidSettings"
   remote="github-ssh"
   revision="tmp-nov22rebase"
   groups="EXTRAS"

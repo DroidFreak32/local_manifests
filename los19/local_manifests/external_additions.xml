@@ -18,4 +18,28 @@
 	name="crdroidandroid/android_vendor_lawnicons"
 	remote="crdroid"
 />
+
+<project
+  path="vendor/addons"
+  name="ROM-EXTRAS/android_vendor_addons"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="packages/apps/crDroidSettings"
+  name="ROM-EXTRAS/crDroidSettings"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="vendor/support"
+  name="ROM-EXTRAS/android_vendor_support"
+  remote="github-ssh"
+  revision="lineage-19.1"
+  groups="EXTRAS"
+/>
 </manifest>
