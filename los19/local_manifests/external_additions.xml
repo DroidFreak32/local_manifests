@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<project
+	path="external/colorkt"
+	name="crdroidandroid/android_external_colorkt"
+	remote="crdroid"
+/>
+
+<project
+	path="external/themelib"
+	name="crdroidandroid/android_external_themelib"
+	remote="crdroid"
+/>
+
+<project
+	path="vendor/lawnicons"
+	name="crdroidandroid/android_vendor_lawnicons"
+	remote="crdroid"
+/>
+</manifest>

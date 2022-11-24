@@ -1,25 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="LineageOS/android_lineage-sdk" path="lineage-sdk" />
-  <project name="ROM-EXTRAS/android_lineage-sdk" path="lineage-sdk" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
 
-  <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
-  <project name="ROM-EXTRAS/android_frameworks_base" path="frameworks/base" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
+  <remove-project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
+  <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
+  <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <remove-project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
+  <remove-project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
+  <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
+  <remove-project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
+  <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <remove-project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
+  <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
-  <remove-project name="LineageOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
-  <project name="ROM-EXTRAS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
 
-  <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
-  <project name="ROM-EXTRAS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
+<project
+  path="device/lineage/sepolicy"
+  name="ROM-EXTRAS/android_device_lineage_sepolicy"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
 
-  <remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
-  <project name="ROM-EXTRAS/android_vendor_lineage" path="vendor/lineage" remote="github-ssh" revision="lineage-19.1" groups="EXTRAS" />
+<project
+  path="frameworks/av"
+  name="ROM-EXTRAS/android_frameworks_av"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
 
-  <project path="external/colorkt" name="crdroidandroid/android_external_colorkt" remote="crdroid" />
-  <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="crdroid" />
-  <project path="vendor/lawnicons" name="crdroidandroid/android_vendor_lawnicons" remote="crdroid" />
-  <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
-  <project path="packages/apps/crDroidSettings" name="ROM-EXTRAS/crDroidSettings" remote="github-ssh" revision="lineage-19.1" />
+<project
+  path="frameworks/base"
+  name="ROM-EXTRAS/android_frameworks_base"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="frameworks/libs/net"
+  name="platform/frameworks/libs/net"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="frameworks/native"
+  name="ROM-EXTRAS/android_frameworks_native"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="hardware/interfaces"
+  name="ROM-EXTRAS/android_hardware_interfaces"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="hardware/lineage/interfaces"
+  name="ROM-EXTRAS/android_hardware_lineage_interfaces"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="lineage-sdk"
+  name="ROM-EXTRAS/android_lineage-sdk"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="packages/apps/LineageParts"
+  name="ROM-EXTRAS/android_packages_apps_LineageParts"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="packages/apps/Settings"
+  name="ROM-EXTRAS/android_packages_apps_Settings"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="packages/apps/ThemePicker"
+  name="ROM-EXTRAS/android_packages_apps_ThemePicker"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="packages/inputmethods/LatinIME"
+  name="ROM-EXTRAS/android_packages_inputmethods_LatinIME"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="packages/services/Telecomm"
+  name="ROM-EXTRAS/android_packages_services_Telecomm"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="system/core"
+  name="ROM-EXTRAS/android_system_core"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="system/sepolicy"
+  name="ROM-EXTRAS/android_system_sepolicy"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="vendor/lineage"
+  name="ROM-EXTRAS/android_vendor_lineage"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="vendor/addons"
+  name="ROM-EXTRAS/android_vendor_addons"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
+
+<project
+  path="packages/apps/crDroidSettings"
+  name="ROM-EXTRAS/crDroidSettings"
+  remote="github-ssh"
+  revision="tmp-nov22rebase"
+  groups="EXTRAS"
+/>
 
 </manifest>
