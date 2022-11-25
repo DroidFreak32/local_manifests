@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
+  <remove-project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <remove-project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
@@ -14,12 +14,20 @@
   <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
   <remove-project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
   <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <remove-project path="packages/modules/Connectivity" name="LineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
-  <remove-project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
+<project
+  path="bionic"
+  name="ROM-EXTRAS/android_bionic"
+  remote="github-ssh"
+  revision="lineage-19.1"
+  groups="EXTRAS"
+/>
 
 <project
   path="device/lineage/sepolicy"
@@ -118,6 +126,14 @@
 />
 
 <project
+  path="packages/modules/Connectivity"
+  name="ROM-EXTRAS/android_packages_modules_Connectivity"
+  remote="github-ssh"
+  revision="lineage-19.1"
+  groups="EXTRAS"
+/>
+
+<project
   path="packages/overlays/Lineage"
   name="ROM-EXTRAS/android_packages_overlays_Lineage"
   remote="github-ssh"
@@ -136,6 +152,7 @@
 <project
   path="system/core"
   name="ROM-EXTRAS/android_system_core"
+  replaced_name="LineageOS/android_system_core"
   remote="github-ssh"
   revision="lineage-19.1"
   groups="EXTRAS"
