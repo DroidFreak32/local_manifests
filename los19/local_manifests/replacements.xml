@@ -23,6 +23,7 @@
 
 <project
   path="bionic"
+  review_name="LineageOS/android_bionic"
   name="ROM-EXTRAS/android_bionic"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -31,6 +32,7 @@
 
 <project
   path="device/lineage/sepolicy"
+  review_name="LineageOS/android_device_lineage_sepolicy"
   name="ROM-EXTRAS/android_device_lineage_sepolicy"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -39,6 +41,7 @@
 
 <project
   path="frameworks/av"
+  review_name="LineageOS/android_frameworks_av"
   name="ROM-EXTRAS/android_frameworks_av"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -47,6 +50,7 @@
 
 <project
   path="frameworks/base"
+  review_name="LineageOS/android_frameworks_base"
   name="ROM-EXTRAS/android_frameworks_base"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -55,6 +59,7 @@
 
 <project
   path="frameworks/libs/net"
+  review_name="LineageOS/android_frameworks_libs_net"
   name="ROM-EXTRAS/android_frameworks_libs_net"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -63,6 +68,7 @@
 
 <project
   path="frameworks/native"
+  review_name="LineageOS/android_frameworks_native"
   name="ROM-EXTRAS/android_frameworks_native"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -71,6 +77,7 @@
 
 <project
   path="hardware/interfaces"
+  review_name="LineageOS/android_hardware_interfaces"
   name="ROM-EXTRAS/android_hardware_interfaces"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -79,6 +86,7 @@
 
 <project
   path="hardware/lineage/interfaces"
+  review_name="LineageOS/android_hardware_lineage_interfaces"
   name="ROM-EXTRAS/android_hardware_lineage_interfaces"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -87,6 +95,7 @@
 
 <project
   path="lineage-sdk"
+  review_name="LineageOS/android_lineage-sdk"
   name="ROM-EXTRAS/android_lineage-sdk"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -95,6 +104,7 @@
 
 <project
   path="packages/apps/LineageParts"
+  review_name="LineageOS/android_packages_apps_LineageParts"
   name="ROM-EXTRAS/android_packages_apps_LineageParts"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -103,6 +113,7 @@
 
 <project
   path="packages/apps/Settings"
+  review_name="LineageOS/android_packages_apps_Settings"
   name="ROM-EXTRAS/android_packages_apps_Settings"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -111,6 +122,7 @@
 
 <project
   path="packages/apps/ThemePicker"
+  review_name="LineageOS/android_packages_apps_ThemePicker"
   name="ROM-EXTRAS/android_packages_apps_ThemePicker"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -119,6 +131,7 @@
 
 <project
   path="packages/inputmethods/LatinIME"
+  review_name="LineageOS/android_packages_inputmethods_LatinIME"
   name="ROM-EXTRAS/android_packages_inputmethods_LatinIME"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -127,6 +140,7 @@
 
 <project
   path="packages/modules/Connectivity"
+  review_name="LineageOS/android_packages_modules_Connectivity"
   name="ROM-EXTRAS/android_packages_modules_Connectivity"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -135,6 +149,7 @@
 
 <project
   path="packages/overlays/Lineage"
+  review_name="LineageOS/android_packages_overlays_Lineage"
   name="ROM-EXTRAS/android_packages_overlays_Lineage"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -143,6 +158,7 @@
 
 <project
   path="packages/services/Telecomm"
+  review_name="LineageOS/android_packages_services_Telecomm"
   name="ROM-EXTRAS/android_packages_services_Telecomm"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -151,8 +167,8 @@
 
 <project
   path="system/core"
+  review_name="LineageOS/android_system_core"
   name="ROM-EXTRAS/android_system_core"
-  replaced_name="LineageOS/android_system_core"
   remote="github-ssh"
   revision="lineage-19.1"
   groups="EXTRAS"
@@ -160,6 +176,7 @@
 
 <project
   path="system/sepolicy"
+  review_name="LineageOS/android_system_sepolicy"
   name="ROM-EXTRAS/android_system_sepolicy"
   remote="github-ssh"
   revision="lineage-19.1"
@@ -168,6 +185,7 @@
 
 <project
   path="vendor/lineage"
+  review_name="LineageOS/android_vendor_lineage"
   name="ROM-EXTRAS/android_vendor_lineage"
   remote="github-ssh"
   revision="lineage-19.1"
