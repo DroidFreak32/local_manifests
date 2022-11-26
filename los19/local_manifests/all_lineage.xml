@@ -2,14 +2,11 @@
 <manifest>
 
   <!-- LineageOS - Infrastructure - Unneeded Projects -->
-  <remove-project name="LineageOS/ansible" />
   <remove-project name="LineageOS/contributors-cloud-generator" />
   <remove-project name="LineageOS/cm_crowdin" />
-  <remove-project name="LineageOS/cve_tracker" />
   <remove-project name="LineageOS/hudson" />
   <remove-project name="LineageOS/mirror" />
   <remove-project name="LineageOS/scripts" />
-  <remove-project name="LineageOS/slackbot" />
   <remove-project name="LineageOS/www" />
   <remove-project name="LineageOS/lineage_wiki" />
 
