@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-19.1" review="localhost:8443" />
+  <remote name="github-ssh" fetch="ssh://git@github.com" revision="lineage-19.1" review="ssh://lgerrit" />
   <remote name="gitlab-ssh" fetch="ssh://git@gitlab.com" revision="lineage-19.1" />
 
   <remote name="pixel"
