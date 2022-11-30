@@ -29,7 +29,7 @@
 
 <project
   path="packages/apps/crDroidSettings"
-  name="ROM-EXTRAS/crDroidSettings"
+  name="ROM-EXTRAS/android_packages_apps_crDroidSettings"
   remote="github-ssh"
   revision="lineage-19.1"
   groups="EXTRAS"
