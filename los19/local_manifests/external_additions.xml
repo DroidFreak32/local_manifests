@@ -28,6 +28,14 @@
 />
 
 <project
+  path="external/pulse"
+  name="ROM-EXTRAS/android_external_pulse"
+  remote="github-ssh"
+  revision="lineage-19.1"
+  groups="EXTRAS"
+/>
+
+<project
   path="packages/apps/crDroidSettings"
   name="ROM-EXTRAS/android_packages_apps_crDroidSettings"
   remote="github-ssh"
