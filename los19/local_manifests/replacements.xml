@@ -16,6 +16,7 @@
   <remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <remove-project path="packages/modules/Connectivity" name="LineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
@@ -152,6 +153,15 @@
   path="packages/modules/Connectivity"
   review_name="LineageOS/android_packages_modules_Connectivity"
   name="ROM-EXTRAS/android_packages_modules_Connectivity"
+  remote="github-ssh"
+  revision="lineage-19.1"
+  groups="EXTRAS"
+/>
+
+<project
+  path="packages/modules/Permission"
+  review_name="LineageOS/android_packages_modules_Permission"
+  name="ROM-EXTRAS/android_packages_modules_Permission"
   remote="github-ssh"
   revision="lineage-19.1"
   groups="EXTRAS"
