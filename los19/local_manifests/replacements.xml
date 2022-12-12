@@ -12,6 +12,7 @@
   <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
+  <remove-project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" />
   <remove-project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
   <remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
@@ -117,6 +118,15 @@
   path="packages/apps/Settings"
   review_name="LineageOS/android_packages_apps_Settings"
   name="ROM-EXTRAS/android_packages_apps_Settings"
+  remote="github-ssh"
+  revision="lineage-19.1"
+  groups="EXTRAS"
+/>
+
+<project
+  path="packages/apps/SimpleDeviceConfig"
+  review_name="LineageOS/android_packages_apps_SimpleDeviceConfig"
+  name="ROM-EXTRAS/android_packages_apps_SimpleDeviceConfig"
   remote="github-ssh"
   revision="lineage-19.1"
   groups="EXTRAS"
