@@ -3,6 +3,9 @@
 
   <remove-project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <remove-project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
+  <remove-project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk" remote="aosp" />
+  <remove-project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp" />
+  <remove-project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" remote="aosp" />
   <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
