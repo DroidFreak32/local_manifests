@@ -44,6 +44,14 @@
 />
 
 <project
+  path="packages/apps/GameSpace"
+  name="ROM-EXTRAS/android_packages_apps_GameSpace"
+  remote="github-ssh"
+  revision="lineage-19.1"
+  groups="EXTRAS"
+/>
+
+<project
   path="packages/apps/RepainterServicePriv"
   name="ROM-EXTRAS/android_packages_apps_RepainterServicePriv"
   remote="github-ssh"
