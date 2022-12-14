@@ -25,6 +25,9 @@
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="twelve" />
 
+  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc-qpr3" />
+  <remote name="proton-ssh" fetch="ssh://git@github.com/ProtonAOSP" revision="sc-qpr3" />
+
   <remote  name="crdroid"
            fetch="https://github.com/"
            sync-c="true"
