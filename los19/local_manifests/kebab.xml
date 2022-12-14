@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/oneplus/kebab" remote="github" name="LineageOS/android_device_oneplus_kebab" />
-  <project path="device/oneplus/sm8250-common" remote="github" name="LineageOS/android_device_oneplus_sm8250-common" />
-  <project path="hardware/oneplus" remote="github" name="LineageOS/android_hardware_oneplus" />
-  <project path="kernel/oneplus/sm8250" remote="github" name="LineageOS/android_kernel_oneplus_sm8250" />
+  <project
+    path="device/oneplus/kebab"
+    name="DroidFreak32/android_device_oneplus_kebab"
+    remote="github-ssh"
+    revision="lineage-19.1"
+    groups="kebab"
+  />
+  <project
+    path="device/oneplus/sm8250-common"
+    name="DroidFreak32/android_device_oneplus_sm8250-common"
+    remote="github-ssh"
+    revision="lineage-19.1"
+    groups="kebab"
+  />
+  <project
+    path="hardware/oneplus"
+    name="LineageOS/android_hardware_oneplus"
+    remote="github-ssh"
+    revision="lineage-19.1"
+    groups="kebab"
+  />
+  <project
+    path="kernel/oneplus/sm8250"
+    name="DroidFreak32/android_kernel_oneplus_sm8250"
+    remote="github-ssh"
+    revision="lineage-19.1"
+    groups="kebab"
+  />
+  <project
+    path="vendor/oneplus"
+    name="MinimalAndroidVendor/proprietary_vendor_kebab"
+    remote="github-ssh"
+    revision="lineage-19.1"
+    groups="kebab"
+  />
 </manifest>
