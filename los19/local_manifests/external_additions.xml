@@ -22,8 +22,8 @@
 
 <project
 	path="vendor/lawnicons"
-	name="crdroidandroid/android_vendor_lawnicons"
-	remote="crdroid"
+	name="android_vendor_lawnicons"
+	remote="proton"
 />
 
 <project
