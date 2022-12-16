@@ -4,6 +4,7 @@
   <remove-project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <remove-project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <remove-project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
+  <remove-project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" />
   <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -47,6 +48,15 @@
   path="device/lineage/sepolicy"
   review_name="LineageOS/android_device_lineage_sepolicy"
   name="ROM-EXTRAS/android_device_lineage_sepolicy"
+  remote="github-ssh"
+  revision="lineage-19.1"
+  groups="EXTRAS"
+/>
+
+<project
+  path="external/jemalloc_new"
+  review_name="ROM-EXTRAS/android_external_jemalloc_new"
+  name="ROM-EXTRAS/android_external_jemalloc_new"
   remote="github-ssh"
   revision="lineage-19.1"
   groups="EXTRAS"
