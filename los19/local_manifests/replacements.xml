@@ -21,7 +21,6 @@
   <remove-project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" remote="aosp" />
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
@@ -210,15 +209,6 @@
   path="system/core"
   review_name="LineageOS/android_system_core"
   name="ROM-EXTRAS/android_system_core"
-  remote="github-ssh"
-  revision="lineage-19.1"
-  groups="EXTRAS"
-/>
-
-<project
-  path="system/memory/lmkd"
-  review_name="ROM-EXTRAS/android_system_memory_lmkd"
-  name="ROM-EXTRAS/android_system_memory_lmkd"
   remote="github-ssh"
   revision="lineage-19.1"
   groups="EXTRAS"
