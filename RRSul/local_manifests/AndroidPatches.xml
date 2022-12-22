@@ -12,7 +12,7 @@
             external/chromium-libpac
             external/e2fsprogs
             external/gptfdisk
-	    external/libavc
+            external/libavc
             external/libhevc
             external/libmpeg2
             external/libnfc-nci
@@ -35,7 +35,7 @@
             packages/providers/DownloadProvider
             packages/providers/MediaProvider
             packages/providers/TelephonyProvider
-	    packages/providers/TvProvider
+            packages/providers/TvProvider
             packages/providers/UserDictionaryProvider
             system/bt
             system/media
