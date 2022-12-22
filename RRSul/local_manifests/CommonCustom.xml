@@ -30,7 +30,7 @@
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github-ssh" />
     <project name="ROM-EXTRAS/android_frameworks_support" path="frameworks/support" remote="github-ssh" />
     <project name="ROM-EXTRAS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0" remote="github-ssh" />
-    <project name="ROM-EXTRAS/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github-ssh" />
+    <project name="ROM-EXTRAS/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github-ssh" revision="nougat" />
     <project name="ROM-EXTRAS/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github-ssh" />
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github-ssh" />
 
