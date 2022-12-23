@@ -47,5 +47,5 @@
   <remove-project name="device/google/contexthub" />
   <remove-project name="platform/external/autotest" />
   <remove-project name="platform/external/linux-kselftest" />
-
+  <remove-project name="platform/prebuilts/remoteexecution-client" />
 </manifest>
