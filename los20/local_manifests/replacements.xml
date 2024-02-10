@@ -33,6 +33,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 /> -->
 
 <project
@@ -42,6 +43,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -51,6 +53,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <!-- <project
@@ -60,6 +63,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 /> -->
 
 <project
@@ -69,6 +73,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -78,6 +83,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -87,6 +93,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,aospfork"
+  clone-depth="-1"
 />
 
 <project
@@ -96,6 +103,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -105,6 +113,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -114,6 +123,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -123,6 +133,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -132,6 +143,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -141,6 +153,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -150,6 +163,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -159,6 +173,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -168,6 +183,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -177,6 +193,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -186,6 +203,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -195,6 +213,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -204,6 +223,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -213,6 +233,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -222,6 +243,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -231,6 +253,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 <project
@@ -240,6 +263,7 @@
   remote="github-ssh"
   revision="lineage-20.0"
   groups="EXTRAS,linfork"
+  clone-depth="-1"
 />
 
 </manifest>
