@@ -16,7 +16,7 @@
 />
 <project
   path="hardware/oplus"
-  name="ROM-EXTRAS/android_hardware_oplus"
+  name="LineageOS/android_hardware_oplus"
   remote="github-ssh"
   revision="lineage-20"
   groups="kebab"

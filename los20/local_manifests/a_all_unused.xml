@@ -44,7 +44,6 @@
 
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
-  <remove-project name="device/google/contexthub" />
   <remove-project name="platform/external/autotest" />
   <remove-project name="platform/external/linux-kselftest" />
 

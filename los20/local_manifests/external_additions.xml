@@ -9,10 +9,10 @@
   <!-- <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" /> -->
   <!-- <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" groups="proton" /> -->
 
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
-  <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <project path="external/unrar" name="LineageOS/android_external_unrar" />
-  <project path="external/zip" name="LineageOS/android_external_zip" />
+  <!-- <project path="external/p7zip" name="LineageOS/android_external_p7zip" /> -->
+  <!-- <project path="external/pigz" name="LineageOS/android_external_pigz" /> -->
+  <!-- <project path="external/unrar" name="LineageOS/android_external_unrar" /> -->
+  <!-- <project path="external/zip" name="LineageOS/android_external_zip" /> -->
 
 <project
 	path="external/colorkt"
@@ -25,12 +25,6 @@
 	name="crdroidandroid/android_external_themelib"
 	remote="crdroid"
 />
-<!-- 
-<project
-	path="vendor/lawnicons"
-	name="android_vendor_lawnicons"
-	remote="proton"
-/>
 
 <project
   path="vendor/addons"
@@ -38,6 +32,13 @@
   remote="github-ssh"
   revision="lineage-19.1"
   groups="EXTRAS,standalone"
+/>
+
+<!--
+<project
+	path="vendor/lawnicons"
+	name="android_vendor_lawnicons"
+	remote="proton"
 />
 
 <project

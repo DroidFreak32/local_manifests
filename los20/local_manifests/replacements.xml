@@ -7,7 +7,7 @@
   <!-- <remove-project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" /> -->
   <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-  <!-- <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
+  <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <remove-project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
   <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
   <remove-project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
@@ -80,14 +80,14 @@
   groups="EXTRAS,linfork"
 />
 
-<!-- <project
+<project
   path="frameworks/libs/net"
   review_name="LineageOS/android_frameworks_libs_net"
   name="ROM-EXTRAS/android_frameworks_libs_net"
   remote="github-ssh"
   revision="lineage-20.0"
-  groups="EXTRAS,linfork"
-/> -->
+  groups="EXTRAS,aospfork"
+/>
 
 <project
   path="frameworks/native"
