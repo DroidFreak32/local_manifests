@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- <remove-project path="art" name="platform/art" groups="pdk" remote="aosp" /> -->
+  <remove-project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <!-- <remove-project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" /> -->
+  <remove-project path="external/bash" name="LineageOS/android_external_bash" />
+  <!-- <remove-project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" /> -->
+  <remove-project path="external/openssh" name="LineageOS/android_external_openssh" />
+  <!-- <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" /> -->
+  <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!-- <remove-project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" /> -->
+  <!-- <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" /> -->
+  <!-- <remove-project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" /> -->
+  <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
+  <!-- <remove-project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" /> -->
+  <!-- <remove-project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" /> -->
+  <!-- <remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" /> -->
+  <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <remove-project path="packages/modules/Connectivity" name="LineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
+  <!-- <remove-project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" /> -->
+  <remove-project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
+  <!-- <remove-project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" /> -->
+  <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <!-- <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" /> -->
+  <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+
+<!-- <project
+  path="art"
+  review_name="ROM-EXTRAS/android_art"
+  name="ROM-EXTRAS/android_art"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<project
+  path="bionic"
+  review_name="LineageOS/android_bionic"
+  name="ROM-EXTRAS/android_bionic"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<!-- <project
+  path="device/lineage/sepolicy"
+  review_name="LineageOS/android_device_lineage_sepolicy"
+  name="ROM-EXTRAS/android_device_lineage_sepolicy"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<project
+  path="external/bash"
+  review_name="LineageOS/android_external_bash"
+  name="ROM-EXTRAS/android_external_bash"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<!-- <project
+  path="external/jemalloc_new"
+  review_name="ROM-EXTRAS/android_external_jemalloc_new"
+  name="ROM-EXTRAS/android_external_jemalloc_new"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<project
+  path="external/openssh"
+  review_name="LineageOS/android_external_openssh"
+  name="ROM-EXTRAS/android_external_openssh"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<!-- <project
+  path="frameworks/av"
+  review_name="LineageOS/android_frameworks_av"
+  name="ROM-EXTRAS/android_frameworks_av"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<project
+  path="frameworks/base"
+  review_name="LineageOS/android_frameworks_base"
+  name="ROM-EXTRAS/android_frameworks_base"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<project
+  path="frameworks/libs/net"
+  review_name="LineageOS/android_frameworks_libs_net"
+  name="ROM-EXTRAS/android_frameworks_libs_net"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,aospfork"
+/>
+
+<!-- <project
+  path="frameworks/native"
+  review_name="LineageOS/android_frameworks_native"
+  name="ROM-EXTRAS/android_frameworks_native"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<!-- <project
+  path="hardware/interfaces"
+  review_name="LineageOS/android_hardware_interfaces"
+  name="ROM-EXTRAS/android_hardware_interfaces"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<!-- <project
+  path="hardware/lineage/interfaces"
+  review_name="LineageOS/android_hardware_lineage_interfaces"
+  name="ROM-EXTRAS/android_hardware_lineage_interfaces"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<project
+  path="lineage-sdk"
+  review_name="LineageOS/android_lineage-sdk"
+  name="ROM-EXTRAS/android_lineage-sdk"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<project
+  path="packages/apps/LineageParts"
+  review_name="LineageOS/android_packages_apps_LineageParts"
+  name="ROM-EXTRAS/android_packages_apps_LineageParts"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<project
+  path="packages/apps/Settings"
+  review_name="LineageOS/android_packages_apps_Settings"
+  name="ROM-EXTRAS/android_packages_apps_Settings"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<!-- <project
+  path="packages/apps/SimpleDeviceConfig"
+  review_name="LineageOS/android_packages_apps_SimpleDeviceConfig"
+  name="ROM-EXTRAS/android_packages_apps_SimpleDeviceConfig"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<!-- <project
+  path="packages/apps/ThemePicker"
+  review_name="LineageOS/android_packages_apps_ThemePicker"
+  name="ROM-EXTRAS/android_packages_apps_ThemePicker"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<!-- <project
+  path="packages/apps/Trebuchet"
+  review_name="LineageOS/android_packages_apps_Trebuchet"
+  name="ROM-EXTRAS/android_packages_apps_Trebuchet"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<project
+  path="packages/inputmethods/LatinIME"
+  review_name="LineageOS/android_packages_inputmethods_LatinIME"
+  name="ROM-EXTRAS/android_packages_inputmethods_LatinIME"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<project
+  path="packages/modules/Connectivity"
+  review_name="LineageOS/android_packages_modules_Connectivity"
+  name="ROM-EXTRAS/android_packages_modules_Connectivity"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<!-- <project
+  path="packages/modules/Permission"
+  review_name="LineageOS/android_packages_modules_Permission"
+  name="ROM-EXTRAS/android_packages_modules_Permission"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<project
+  path="packages/overlays/Lineage"
+  review_name="LineageOS/android_packages_overlays_Lineage"
+  name="ROM-EXTRAS/android_packages_overlays_Lineage"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<!-- <project
+  path="packages/services/Telecomm"
+  review_name="LineageOS/android_packages_services_Telecomm"
+  name="ROM-EXTRAS/android_packages_services_Telecomm"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<project
+  path="system/core"
+  review_name="LineageOS/android_system_core"
+  name="ROM-EXTRAS/android_system_core"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+<!-- <project
+  path="system/sepolicy"
+  review_name="LineageOS/android_system_sepolicy"
+  name="ROM-EXTRAS/android_system_sepolicy"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/> -->
+
+<project
+  path="vendor/lineage"
+  review_name="LineageOS/android_vendor_lineage"
+  name="ROM-EXTRAS/android_vendor_lineage"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
+
+</manifest>

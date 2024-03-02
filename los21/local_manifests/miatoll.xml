@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--   <project path="vendor/xiaomi/miatoll" remote="pixel-devices-blobs" name="vendor_xiaomi_miatoll" revision="twelve" />
+  <project path="kernel/xiaomi/sm6250" remote="github" name="LineageOS/android_kernel_xiaomi_sm6250" revision="lineage-18.1" />
+  <project path="vendor/xiaomi/sm6250-common" remote="pixel-devices-blobs" name="vendor_xiaomi_sm6250-common" revision="twelve" />
+  <project path="device/xiaomi/miatoll" remote="github-ssh" name="DroidFreak32/device_xiaomi_miatoll" revision="twelve-plus" />
+  <project path="device/xiaomi/sm6250-common" remote="github-ssh" name="DroidFreak32/device_xiaomi_sm6250-common"  revision="twelve-plus" /> -->
+  <project path="device/xiaomi/miatoll" remote="github" name="LineageOS/android_device_xiaomi_miatoll" revision="lineage-20" />
+  <project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" />
+  <project path="device/xiaomi/sm6250-common" remote="github" name="LineageOS/android_device_xiaomi_sm6250-common" revision="lineage-20" />
+  <project path="hardware/sony/timekeep" remote="github" name="LineageOS/android_hardware_sony_timekeep" revision="lineage-21" />
+  <project path="kernel/xiaomi/sm6250" remote="github" name="LineageOS/android_kernel_xiaomi_sm6250" revision="lineage-20" />
+  <project path="vendor/xiaomi/sm6250-common" remote="github" name="xiaomi-sm6250-devs/android_vendor_xiaomi_sm6250-common" revision="lineage-21" />
+  <project path="vendor/xiaomi/miatoll" remote="github" name="xiaomi-sm6250-devs/android_vendor_xiaomi_miatoll" revision="lineage-20" />
+
+</manifest>

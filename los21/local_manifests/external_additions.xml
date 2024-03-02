@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- <remove-project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk" remote="aosp" /> -->
+  <!-- <remove-project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp" /> -->
+  <!-- <remove-project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" remote="aosp" /> -->
+  <!-- <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" /> -->
+  <!-- <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" /> -->
+  <!-- <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" /> -->
+  <!-- <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" groups="proton" /> -->
+
+  <!-- <project path="external/p7zip" name="LineageOS/android_external_p7zip" /> -->
+  <!-- <project path="external/pigz" name="LineageOS/android_external_pigz" /> -->
+  <!-- <project path="external/unrar" name="LineageOS/android_external_unrar" /> -->
+  <!-- <project path="external/zip" name="LineageOS/android_external_zip" /> -->
+<!--
+<project
+	path="external/colorkt"
+	name="crdroidandroid/android_external_colorkt"
+	remote="crdroid"
+/>
+
+<project
+	path="external/themelib"
+	name="crdroidandroid/android_external_themelib"
+	remote="crdroid"
+/> -->
+
+<project
+  path="vendor/addons"
+  name="ROM-EXTRAS/android_vendor_addons"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,standalone"
+/>
+
+<!--
+<project
+	path="vendor/lawnicons"
+	name="android_vendor_lawnicons"
+	remote="proton"
+/>
+
+<project
+  path="packages/apps/GameSpace"
+  name="ROM-EXTRAS/android_packages_apps_GameSpace"
+  remote="github-ssh"
+  revision="lineage-19.1"
+  groups="EXTRAS,standalone"
+/> -->
+
+<project
+  path="external/pulse"
+  name="ROM-EXTRAS/android_external_pulse"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,standalone"
+/>
+
+<project
+  path="packages/apps/crDroidSettings"
+  review_name="ROM-EXTRAS/android_packages_apps_crDroidSettings"
+  name="ROM-EXTRAS/android_packages_apps_crDroidSettings"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,standalone"
+/>
+
+<!-- <project
+  path="packages/apps/RepainterServicePriv"
+  name="ROM-EXTRAS/android_packages_apps_RepainterServicePriv"
+  remote="github-ssh"
+  revision="lineage-20.0"
+  groups="EXTRAS,standalone"
+/> -->
+
+<project
+  path="vendor/support"
+  name="ROM-EXTRAS/android_vendor_support"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,standalone"
+/>
+
+<project
+  path="vendor/extra"
+  name="luk1337/android_vendor_extra"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,standalone"
+/>
+
+<project
+  path="packages/apps/Bellis"
+  name="CalyxOS/platform_packages_apps_Bellis"
+  remote="github-ssh"
+  revision="android14"
+  groups="EXTRAS,standalone"
+/>
+
+</manifest>
