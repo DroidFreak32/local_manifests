@@ -15,15 +15,16 @@
   <!-- <project path="external/zip" name="LineageOS/android_external_zip" /> -->
 <!--
 <project
-	path="external/colorkt"
-	name="crdroidandroid/android_external_colorkt"
-	remote="crdroid"
+  path="external/colorkt"
+  name="crdroidandroid/android_external_colorkt"
+  remote="crdroid"
+  clone-depth="-1"
 />
 
 <project
-	path="external/themelib"
-	name="crdroidandroid/android_external_themelib"
-	remote="crdroid"
+  path="external/themelib"
+  name="crdroidandroid/android_external_themelib"
+  remote="crdroid"
 /> -->
 
 <project
@@ -32,13 +33,15 @@
   remote="github-ssh"
   revision="lineage-21.0"
   groups="EXTRAS,standalone"
+  clone-depth="-1"
 />
 
 <!--
 <project
-	path="vendor/lawnicons"
-	name="android_vendor_lawnicons"
-	remote="proton"
+  path="vendor/lawnicons"
+  name="android_vendor_lawnicons"
+  remote="proton"
+  clone-depth="-1"
 />
 
 <project
@@ -55,6 +58,7 @@
   remote="github-ssh"
   revision="lineage-21.0"
   groups="EXTRAS,standalone"
+  clone-depth="-1"
 />
 
 <project
@@ -64,6 +68,7 @@
   remote="github-ssh"
   revision="lineage-21.0"
   groups="EXTRAS,standalone"
+  clone-depth="-1"
 />
 
 <!-- <project
@@ -80,6 +85,7 @@
   remote="github-ssh"
   revision="lineage-21.0"
   groups="EXTRAS,standalone"
+  clone-depth="-1"
 />
 
 <project
@@ -88,6 +94,7 @@
   remote="github-ssh"
   revision="lineage-21.0"
   groups="EXTRAS,standalone"
+  clone-depth="-1"
 />
 
 <project
@@ -96,6 +103,6 @@
   remote="github-ssh"
   revision="android14"
   groups="EXTRAS,standalone"
+  clone-depth="-1"
 />
-
 </manifest>
