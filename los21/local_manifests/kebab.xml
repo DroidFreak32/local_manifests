@@ -7,6 +7,7 @@
   remote="github-ssh"
   revision="lineage-21"
   groups="kebab"
+  clone-depth="-1"
 />
 
 <project
@@ -16,14 +17,18 @@
   remote="github-ssh"
   revision="lineage-21"
   groups="kebab"
+  clone-depth="-1"
 />
+
 <project
   path="hardware/oplus"
   name="LineageOS/android_hardware_oplus"
   remote="github-ssh"
   revision="lineage-21"
   groups="kebab"
+  clone-depth="-1"
 />
+
 <project
   path="kernel/oneplus/sm8250"
   review_name="LineageOS/android_kernel_oneplus_sm8250"
@@ -31,19 +36,24 @@
   remote="github-ssh"
   revision="lineage-21"
   groups="kebab"
+  clone-depth="-1"
 />
+
 <project
   path="vendor/oneplus/kebab"
   name="TheMuppets/proprietary_vendor_oneplus_kebab"
   remote="github-ssh"
   revision="lineage-21"
   groups="kebab"
+  clone-depth="-1"
 />
+
 <project
   path="vendor/oneplus/sm8250-common"
   name="TheMuppets/proprietary_vendor_oneplus_sm8250-common"
   remote="github-ssh"
   revision="lineage-21"
   groups="kebab"
+  clone-depth="-1"
 />
 </manifest>
