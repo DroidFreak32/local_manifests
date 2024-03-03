@@ -105,4 +105,14 @@
   groups="EXTRAS,standalone"
   clone-depth="-1"
 />
+
+<project
+  path="packages/wallpapers/ShishufiedWalls"
+  review_name="ROM-EXTRAS/packages_wallpapers_ShishufiedWalls"
+  name="ROM-EXTRAS/packages_wallpapers_ShishufiedWalls"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,standalone"
+  clone-depth="1"
+/>
 </manifest>
