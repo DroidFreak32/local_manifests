@@ -9,7 +9,7 @@
   <remove-project path="external/openssh" name="LineageOS/android_external_openssh" />
   <!-- <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" /> -->
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!-- <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- <remove-project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" /> -->
   <!-- <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" /> -->
   <!-- <remove-project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" /> -->
@@ -19,9 +19,10 @@
   <!-- <remove-project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" /> -->
   <!-- <remove-project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" /> -->
   <!-- <remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" /> -->
-  <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <!-- <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" /> -->
   <remove-project path="packages/modules/Connectivity" name="LineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
   <!-- <remove-project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" /> -->
+  <remove-project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <!-- <remove-project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" /> -->
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
@@ -100,14 +101,14 @@
   groups="EXTRAS,linfork"
 />
 
-<project
+<!-- <project
   path="frameworks/libs/net"
   review_name="LineageOS/android_frameworks_libs_net"
   name="ROM-EXTRAS/android_frameworks_libs_net"
   remote="github-ssh"
   revision="lineage-21.0"
   groups="EXTRAS,aospfork"
-/>
+/> -->
 
 <!-- <project
   path="frameworks/native"
@@ -190,14 +191,14 @@
   groups="EXTRAS,linfork"
 /> -->
 
-<project
+<!-- <project
   path="packages/inputmethods/LatinIME"
   review_name="LineageOS/android_packages_inputmethods_LatinIME"
   name="ROM-EXTRAS/android_packages_inputmethods_LatinIME"
   remote="github-ssh"
   revision="lineage-21.0"
   groups="EXTRAS,linfork"
-/>
+/> -->
 
 <project
   path="packages/modules/Connectivity"
@@ -216,6 +217,15 @@
   revision="lineage-21.0"
   groups="EXTRAS,linfork"
 /> -->
+
+<project
+  path="packages/providers/TelephonyProvider"
+  review_name="LineageOS/android_packages_providers_TelephonyProvider"
+  name="ROM-EXTRAS/android_packages_providers_TelephonyProvider"
+  remote="github-ssh"
+  revision="lineage-21.0"
+  groups="EXTRAS,linfork"
+/>
 
 <project
   path="packages/overlays/Lineage"

@@ -97,14 +97,14 @@
   clone-depth="-1"
 />
 
-<project
+<!-- <project
   path="packages/apps/Bellis"
   name="CalyxOS/platform_packages_apps_Bellis"
   remote="github-ssh"
   revision="android14"
   groups="EXTRAS,standalone"
   clone-depth="-1"
-/>
+/> -->
 
 <project
   path="packages/wallpapers/ShishufiedWalls"

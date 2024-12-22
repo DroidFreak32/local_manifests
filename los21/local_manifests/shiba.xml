@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/shiba" remote="github" name="LineageOS/android_device_google_shiba" revision="lineage-21" />
+  <project path="device/google/shusky" remote="github" name="LineageOS/android_device_google_shusky" revision="lineage-21" />
+  <project path="device/google/zuma" remote="github-ssh" name="DroidFreak32/android_device_google_zuma" revision="lineage-21" />
+  <project path="device/google/shusky-kernel" remote="aosp-shusky" name="device/google/shusky-kernel" clone-depth="1" />
+  <project path="device/google/gs101" remote="github" name="LineageOS/android_device_google_gs101" revision="lineage-21" />
+  <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" revision="lineage-21" />
+  <project path="vendor/google/shiba" remote="github" name="TheMuppets/proprietary_vendor_google_shiba" revision="lineage-21" clone-depth="1" />
+</manifest>

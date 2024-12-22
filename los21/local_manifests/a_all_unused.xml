@@ -42,9 +42,9 @@
 
   <!-- Google AOSP - Unneeded Projects -->
 
-  <remove-project name="device/generic/mini-emulator-arm64" />
+  <!-- <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="platform/external/autotest" />
-  <remove-project name="platform/external/linux-kselftest" />
+  <remove-project name="platform/external/linux-kselftest" /> -->
 
 </manifest>
