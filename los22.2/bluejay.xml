@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/bluejay" remote="github" name="LineageOS/android_device_google_bluejay" />
+  <project path="device/google/bluejay-kernels/6.1" remote="github-ssh" name="DroidFreak32/android_device_google_bluejay-kernels_6.1" clone-depth="1" />
+  <!-- <project path="device/google/bluejay-kernels/5.10" remote="aosp-bluejay" name="device/google/bluejay-kernels/5.10" clone-depth="1" revision="refs/tags/android-15.0.0_r17" /> -->
+  <project name="TheMuppets/proprietary_vendor_google_bluejay" path="vendor/google/bluejay" remote="github" clone-depth="1" />
+</manifest>

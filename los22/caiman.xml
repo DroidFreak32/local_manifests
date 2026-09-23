@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/caiman" remote="github" name="LineageOS/android_device_google_caiman" revision="lineage-22.1" />
+  <project path="device/google/caimito" remote="github" name="LineageOS/android_device_google_caimito" revision="lineage-22.1" />
+  <project path="device/google/zumapro" remote="github" name="LineageOS/android_device_google_zumapro" revision="lineage-22.1" />
+  <project path="device/google/caimito-kernels/6.1" remote="aosp-caimito" name="device/google/caimito-kernels/6.1" clone-depth="1" />
+  <project path="device/google/gs101" remote="github" name="LineageOS/android_device_google_gs101" revision="lineage-22.1" />
+  <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" revision="lineage-22.1" />
+  <project path="vendor/google/caiman" remote="github" name="TheMuppets/proprietary_vendor_google_caiman" revision="lineage-22.1" clone-depth="1" />
+
+</manifest>

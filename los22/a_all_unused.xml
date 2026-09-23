@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github-ssh" fetch="https://github.com" revision="lineage-22.1" review="ssh://lgerrit" />
+  <remote name="gitlab-ssh" fetch="ssh://git@gitlab.com" revision="lineage-22.1" />
+  <remote name="gitlab" fetch="https://gitlab.com" revision="lineage-22.1" />
+
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="thirteen"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience/thirteen"
+          revision="thirteen" />
+
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="thirteen" />
+
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="thirteen" />
+
+  <remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="thirteen" />
+
+  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc-qpr3" />
+  <remote name="proton-ssh" fetch="ssh://git@github.com/ProtonAOSP" revision="sc-qpr3" />
+
+  <remote  name="crdroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/15.0" />
+
+  <remote  name="crdroid-gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/15.0" />
+
+</manifest>
